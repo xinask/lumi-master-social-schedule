@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Lumi Master 海外社媒排期</title>
+  <style>
+    :root{--blue:#1769d2;--navy:#16324f;--text:#29445f;--muted:#6d8299;--line:#d9e6f3;--pale:#eef6ff;--bg:#f5f9fe;--shadow:0 10px 30px rgba(35,80,125,.09)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 "Segoe UI","Microsoft YaHei",sans-serif}
+    a{color:inherit}.top{position:sticky;top:0;z-index:10;display:flex;align-items:center;gap:24px;min-height:68px;padding:10px 30px;background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+    .brand{display:flex;align-items:center;gap:11px;text-decoration:none}.mark{display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:var(--blue);color:#fff;font-size:19px;font-weight:800}.brand b{display:block;color:var(--navy);font-size:15px;letter-spacing:1.4px}.brand small{display:block;color:var(--muted);font-size:11px}
+    .readonly{padding:6px 10px;border:1px solid #b9d4f3;border-radius:999px;background:#f1f7ff;color:var(--blue);font-size:12px;font-weight:700;white-space:nowrap}.toplinks{display:flex;align-items:center;gap:8px;margin-left:auto;flex-wrap:wrap}.toplinks a{display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border:1px solid #b9d4f3;border-radius:9px;background:#f7fbff;color:var(--blue);font-weight:700;text-decoration:none;transition:.16s ease}.toplinks a:hover{transform:translateY(-2px);background:#eaf4ff;box-shadow:0 6px 16px rgba(23,105,210,.12)}.toplinks a:active{transform:translateY(0) scale(.97)}
+    .shell{width:min(1460px,100%);margin:auto;padding:28px 30px 50px}.hero{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:22px}.eyebrow{color:var(--blue);font-size:12px;font-weight:800;letter-spacing:.08em}.hero h1{margin:5px 0 4px;color:var(--navy);font-size:30px}.hero p{margin:0;color:var(--muted)}.updated{min-width:210px;padding:12px 15px;border:1px solid var(--line);border-radius:11px;background:#fff;color:var(--muted);text-align:right}
+    .metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:18px}.metric{padding:17px 19px;border:1px solid var(--line);border-radius:13px;background:#fff;box-shadow:0 4px 15px rgba(35,80,125,.03)}.metric span{color:var(--muted);font-size:12px}.metric strong{display:block;margin:2px 0;color:var(--navy);font-size:28px}.metric small{color:var(--muted)}
+    .region-hubs,.toolbar,.panel{border:1px solid var(--line);border-radius:13px;background:#fff}.region-hubs{padding:18px;margin-bottom:15px}.section-head{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-bottom:14px}.section-head h2{margin:0;color:var(--navy);font-size:18px}.section-head span{color:var(--muted);font-size:12px}.hub-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}.hub{padding:14px;border:1px solid #e1ebf5;border-radius:11px;background:#fbfdff}.hub h3{margin:0 0 10px;color:var(--navy);font-size:14px}.hub-links{display:flex;flex-wrap:wrap;gap:7px}.hub-link{display:inline-flex;align-items:center;gap:6px;min-height:34px;padding:6px 9px;border:1px solid #dfe9f3;border-radius:8px;background:#fff;color:#15191d;font-weight:600;text-decoration:none;transition:.15s ease}.hub-link:hover{transform:translateY(-2px);border-color:#abc9e9;box-shadow:0 5px 12px rgba(32,78,120,.1)}.hub-link:active{transform:scale(.96)}.hub-link img{width:17px;height:17px;object-fit:contain}
+    .toolbar{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:14px 17px;margin-bottom:14px}.filters{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.filters select,.filters input,.view-btn{min-height:38px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--text);font:inherit}.filters select{padding:0 32px 0 10px}.filters input{width:250px;padding:0 12px}.views{display:flex;gap:6px}.view-btn{padding:0 13px;cursor:pointer}.view-btn.active{border-color:#b7d4f3;background:#eaf4ff;color:var(--blue);font-weight:700}
+    .panel{padding:19px;overflow:hidden}.legend{display:flex;align-items:center;gap:18px;margin-bottom:13px;color:var(--muted);font-size:12px}.dot{display:inline-block;width:9px;height:9px;margin-right:5px;border-radius:50%;background:#5b9bea}.dot.lumi{background:#8b6cf0}.dot.community{background:#27a88a}.dot.publishing{background:#ef9a3c}
+    .calendar{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line)}.month-label{grid-column:1/-1;padding:11px 13px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#eaf3ff;color:var(--blue);font-size:16px;font-weight:800}.weekday{padding:7px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#f8fbff;color:var(--muted);font-size:11px;text-align:center}.day{min-height:154px;padding:8px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff}.day.blank{min-height:30px;background:#f9fbfd}.day.today{background:#f6faff}.day-head{display:flex;justify-content:space-between;margin-bottom:6px;color:var(--muted);font-size:11px}.day.today .day-head{color:var(--blue);font-weight:800}.post{display:block;width:100%;margin:5px 0;padding:8px;border:0;border-left:3px solid #5b9bea;border-radius:7px;background:#eef6ff;color:inherit;text-align:left;font:inherit;cursor:pointer;transition:.15s ease}.post:hover{transform:translateY(-1px);filter:brightness(.985);box-shadow:0 5px 12px rgba(31,83,133,.1)}.post:active{transform:scale(.98)}.post.lumi{border-color:#8b6cf0;background:#f2efff}.post.community{border-color:#27a88a;background:#edfafa}.post.publishing{border-color:#ef9a3c;background:#fff6e9}.post b{display:block;color:var(--navy);font-size:12px;line-height:1.35}.post small{display:block;margin-top:3px;color:var(--muted);font-size:10px;line-height:1.35}.post time{display:inline-block;margin-top:4px;color:var(--blue);font-size:10px;font-weight:800}
+    .list{display:none;gap:9px}.list.open{display:grid}.list-row{display:grid;grid-template-columns:105px 70px 1.3fr 1fr 1fr 65px;align-items:center;gap:12px;padding:12px 14px;border:1px solid #e1ebf5;border-radius:10px;background:#fff;cursor:pointer;transition:.15s ease}.list-row:hover{border-color:#b8d2ec;transform:translateY(-1px);box-shadow:0 6px 14px rgba(31,83,133,.07)}.list-row b{color:var(--navy)}.list-row span{color:var(--muted)}.priority{justify-self:end;padding:3px 8px;border-radius:999px;background:#eef6ff;color:var(--blue)!important;font-size:12px;font-weight:700}.empty{grid-column:1/-1;padding:50px 20px;color:var(--muted);text-align:center}
+    dialog{width:min(640px,calc(100vw - 28px));padding:0;border:0;border-radius:16px;box-shadow:0 24px 70px rgba(16,45,73,.28)}dialog::backdrop{background:rgba(13,39,65,.42);backdrop-filter:blur(3px)}.dialog-head{display:flex;justify-content:space-between;align-items:start;gap:15px;padding:21px 22px 17px;border-bottom:1px solid var(--line)}.dialog-head h3{margin:0;color:var(--navy);font-size:21px}.dialog-head p{margin:5px 0 0;color:var(--muted)}.close{display:grid;place-items:center;width:34px;height:34px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--muted);font-size:20px;cursor:pointer}.dialog-body{padding:19px 22px 23px}.detail-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.detail{padding:11px 12px;border-radius:9px;background:#f5f9fe}.detail label{display:block;color:var(--muted);font-size:11px}.detail strong{display:block;margin-top:3px;color:var(--navy)}.link-section{margin-top:17px}.link-section h4{margin:0 0 8px;color:var(--navy)}.link-group{display:flex;flex-wrap:wrap;gap:7px}.data-link{display:inline-flex;padding:7px 10px;border:1px solid #b9d4f3;border-radius:8px;background:#f7fbff;color:var(--blue);font-weight:700;text-decoration:none}.no-links{color:var(--muted);font-size:13px}
+    .error{padding:35px;border:1px solid #f0c8c8;border-radius:12px;background:#fff7f7;color:#9b3434;text-align:center}
+    @media(max-width:1100px){.hub-grid{grid-template-columns:repeat(2,1fr)}.calendar{grid-template-columns:repeat(7,minmax(125px,1fr));overflow:auto}.panel{overflow:auto}.metrics{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:720px){.top{position:static;padding:12px 16px;flex-wrap:wrap}.toplinks{width:100%;margin-left:0}.shell{padding:20px 14px 40px}.hero{align-items:start;flex-direction:column}.updated{text-align:left}.hub-grid{grid-template-columns:1fr}.toolbar{align-items:stretch;flex-direction:column}.filters{align-items:stretch}.filters input,.filters select{width:100%}.metrics{grid-template-columns:repeat(2,1fr)}.list-row{grid-template-columns:82px 1fr}.list-row span:nth-of-type(n+2){display:none}.detail-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#"><span class="mark">噜</span><span><b>LUMI MASTER</b><small>OVERSEAS SOCIAL OPS</small></span></a>
+    <span class="readonly">公开只读版</span>
+    <nav class="toplinks" aria-label="常用工具">
+      <a href="https://claude.ai/public/artifacts/1052c657-1c19-409e-9e7f-30f627106486" target="_blank" rel="noopener noreferrer">素材尺寸参考</a>
+      <a href="https://publer.com/tools/twitter-post-preview" target="_blank" rel="noopener noreferrer">X发帖预览</a>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <div><div class="eyebrow">GLOBAL SOCIAL CALENDAR</div><h1>海外社媒内容排期</h1><p>供合作伙伴查看的最新排期，仅支持浏览与打开已配置链接。</p></div>
+      <div class="updated" id="updated">正在读取最新版本…</div>
+    </section>
+
+    <section class="metrics" aria-label="排期概览">
+      <div class="metric"><span>排期内容</span><strong id="metricPosts">0</strong><small>当前展示范围</small></div>
+      <div class="metric"><span>覆盖地区</span><strong id="metricRegions">0</strong><small>已配置地区</small></div>
+      <div class="metric"><span>覆盖平台</span><strong id="metricPlatforms">0</strong><small>已配置平台</small></div>
+      <div class="metric"><span>S级内容</span><strong id="metricPriority">0</strong><small>重点节点</small></div>
+    </section>
+
+    <section class="region-hubs">
+      <div class="section-head"><h2>地区社媒阵地</h2><span>点击按钮跳转至官方账号</span></div>
+      <div class="hub-grid" id="hubGrid"></div>
+    </section>
+
+    <section class="toolbar" aria-label="筛选">
+      <div class="filters">
+        <select id="monthFilter" aria-label="月份"><option value="all">全部月份</option><option value="2026-08">2026年8月</option><option value="2026-09">2026年9月</option><option value="2026-10">2026年10月</option></select>
+        <select id="regionFilter" aria-label="地区"><option value="all">全部地区</option></select>
+        <select id="platformFilter" aria-label="平台"><option value="all">全部平台</option></select>
+        <input id="searchFilter" type="search" placeholder="搜索贴文标题" aria-label="搜索贴文标题">
+      </div>
+      <div class="views"><button class="view-btn active" data-view="calendar" type="button">日历</button><button class="view-btn" data-view="list" type="button">列表</button></div>
+    </section>
+
+    <section class="panel">
+      <div class="legend"><span><i class="dot"></i>版本/活动</span><span><i class="dot lumi"></i>噜咪/角色</span><span><i class="dot community"></i>社区/UGC</span><span><i class="dot publishing"></i>发行/转化</span></div>
+      <div class="calendar" id="calendar"></div>
+      <div class="list" id="list"></div>
+    </section>
+  </main>
+
+  <dialog id="postDialog">
+    <div class="dialog-head"><div><h3 id="dialogTitle"></h3><p id="dialogDate"></p></div><button class="close" id="closeDialog" type="button" aria-label="关闭">×</button></div>
+    <div class="dialog-body" id="dialogBody"></div>
+  </dialog>
+
+  <script>
+    const TYPE_NAMES={version:'版本/活动',lumi:'噜咪/角色',community:'社区/UGC',publishing:'发行/转化'};
+    const REGIONS=['欧美','日本','韩国','台港澳','俄罗斯'];
+    const SOCIALS={
+      '欧美':[['Facebook','https://facebook.com/lumimasteren'],['X','https://x.com/lumimasterEN'],['Instagram','https://www.instagram.com/lumimasteren/'],['Discord','https://discord.gg/JF86YUP8tu'],['TikTok','https://www.tiktok.com/@lumimasteren'],['YouTube','https://www.youtube.com/@LumiMaster'],['Reddit','https://www.reddit.com/r/LumiMaster/']],
+      '日本':[['X','https://x.com/lumimasterjp'],['TikTok','https://www.tiktok.com/@lumimasterjp'],['YouTube','https://www.youtube.com/@LumiMasterJP']],
+      '韩国':[['Naver','https://game.naver.com/lounge/lumimaster/home'],['X','https://x.com/lumimaster_kr'],['Instagram','https://www.instagram.com/lumimasterkr/'],['YouTube','https://www.youtube.com/@lumimaster_kr']],
+      '台港澳':[['Facebook','https://www.facebook.com/lumimasterhmt'],['Discord','https://discord.gg/4aFdGJ3Kat'],['Instagram','https://www.instagram.com/lumimaster.hmt.official/'],['YouTube','https://www.youtube.com/@lumimasterHMT'],['巴哈姆特','https://forum.gamer.com.tw/B.php?bsn=85224'],['Threads','https://www.threads.com/@lumimaster.hmt.official']],
+      '俄罗斯':[['VK','https://vk.ru/lumiruoff'],['Telegram','https://t.me/lumiruoff'],['YouTube','https://www.youtube.com/@LumiMaster-ru']]
+    };
+    const ICONS={Facebook:['facebook','1877F2'],X:['x','000000'],Instagram:['instagram','E4405F'],Discord:['discord','5865F2'],TikTok:['tiktok','000000'],YouTube:['youtube','FF0000'],Reddit:['reddit','FF4500'],Naver:['naver','03C75A'],VK:['vk','0077FF'],Telegram:['telegram','26A5E4'],Threads:['threads','000000'],'巴哈姆特':['b','00A0E9']};
+    let allPosts=[],view='calendar';
+    const $=id=>document.getElementById(id);
+    const esc=value=>String(value??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+    const safeUrl=value=>{try{const u=new URL(value);return ['http:','https:'].includes(u.protocol)?u.href:''}catch{return''}};
+    const dateText=value=>{const d=new Date(`${value}T00:00:00Z`);return Number.isNaN(d.valueOf())?value:new Intl.DateTimeFormat('zh-CN',{year:'numeric',month:'long',day:'numeric',weekday:'short',timeZone:'UTC'}).format(d)};
+    function renderHubs(){ $('hubGrid').innerHTML=REGIONS.map(region=>`<article class="hub"><h3>${region}</h3><div class="hub-links">${SOCIALS[region].map(([name,url])=>{const [slug,color]=ICONS[name]||['link','1769D2'];const icon=slug==='b'?`<span style="color:#00A0E9;font-weight:900">巴</span>`:`<img src="https://cdn.simpleicons.org/${slug}/${color}" alt="" loading="lazy">`;return `<a class="hub-link" href="${url}" target="_blank" rel="noopener noreferrer">${icon}${name==='Naver'?'Naver Lounge':name}</a>`}).join('')}</div></article>`).join('') }
+    function filtered(){const month=$('monthFilter').value,region=$('regionFilter').value,platform=$('platformFilter').value,q=$('searchFilter').value.trim().toLowerCase();return allPosts.filter(p=>(month==='all'||p.date.startsWith(month))&&(region==='all'||p.regions.includes(region))&&(platform==='all'||p.platforms.includes(platform))&&(!q||p.title.toLowerCase().includes(q)))}
+    function postButton(p){return `<button class="post ${esc(p.types[0]||'version')}" type="button" data-post="${p.publicId}"><b>${esc(p.title)}</b><small>${esc(p.platforms.join(' / '))} · ${esc(p.regions.join(' / '))}</small>${p.time?`<time>${esc(p.time)}</time>`:''}</button>`}
+    function renderCalendar(posts){const byDate=Object.groupBy?Object.groupBy(posts,p=>p.date):posts.reduce((a,p)=>((a[p.date]??=[]).push(p),a),{});let html='';for(let month=8;month<=10;month++){const key=`2026-${String(month).padStart(2,'0')}`;if($('monthFilter').value!=='all'&&$('monthFilter').value!==key)continue;const first=new Date(Date.UTC(2026,month-1,1)).getUTCDay();html+=`<div class="month-label">2026年${month}月</div>${['日','一','二','三','四','五','六'].map(x=>`<div class="weekday">周${x}</div>`).join('')}`;const total=new Date(Date.UTC(2026,month,0)).getUTCDate();for(let i=0;i<first;i++)html+='<div class="day blank"></div>';for(let day=1;day<=total;day++){const date=`${key}-${String(day).padStart(2,'0')}`,weekday=['周日','周一','周二','周三','周四','周五','周六'][new Date(`${date}T00:00:00Z`).getUTCDay()],today=date==='2026-08-28';html+=`<div class="day${today?' today':''}"><div class="day-head"><span>${weekday}</span><span>${month}/${day}</span></div>${(byDate[date]||[]).sort((a,b)=>(a.time||'99:99').localeCompare(b.time||'99:99')||a.order-b.order).map(postButton).join('')}</div>`}}$('calendar').innerHTML=html||'<div class="empty">没有符合条件的排期</div>'}
+    function renderList(posts){$('list').innerHTML=posts.length?posts.slice().sort((a,b)=>a.date.localeCompare(b.date)||(a.time||'99:99').localeCompare(b.time||'99:99')).map(p=>`<article class="list-row" data-post="${p.publicId}" tabindex="0" role="button"><b>${esc(p.date.slice(5))}</b><span>${esc(p.time||'待定')}</span><b>${esc(p.title)}</b><span>${esc(p.platforms.join(' / '))}</span><span>${esc(p.regions.join(' / '))}</span><span class="priority">${esc(p.priority)}</span></article>`).join(''):'<div class="empty">没有符合条件的排期</div>'}
+    function render(){const posts=filtered();renderCalendar(posts);renderList(posts);document.querySelectorAll('[data-post]').forEach(el=>{el.addEventListener('click',()=>openPost(Number(el.dataset.post)));el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openPost(Number(el.dataset.post))}})})}
+    function linksHtml(title,links){const rows=[];Object.entries(links||{}).forEach(([group,value])=>{if(typeof value==='string'&&safeUrl(value))rows.push([group,value]);else if(value&&typeof value==='object')Object.entries(value).forEach(([sub,url])=>{if(safeUrl(url))rows.push([`${group} · ${sub}`,url])})});return `<section class="link-section"><h4>${title}</h4>${rows.length?`<div class="link-group">${rows.map(([label,url])=>`<a class="data-link" href="${esc(safeUrl(url))}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`).join('')}</div>`:'<span class="no-links">暂未配置</span>'}</section>`}
+    function openPost(id){const p=allPosts.find(x=>x.publicId===id);if(!p)return;$('dialogTitle').textContent=p.title;$('dialogDate').textContent=`${dateText(p.date)}${p.time?` · ${p.time}`:''}`;$('dialogBody').innerHTML=`<div class="detail-grid"><div class="detail"><label>平台</label><strong>${esc(p.platforms.join(' / ')||'待定')}</strong></div><div class="detail"><label>地区</label><strong>${esc(p.regions.join(' / ')||'待定')}</strong></div><div class="detail"><label>内容分类</label><strong>${esc(p.types.map(x=>TYPE_NAMES[x]||x).join(' / '))}</strong></div><div class="detail"><label>优先级</label><strong>${esc(p.priority||'待定')}</strong></div></div>${linksHtml('文档链接',p.docLinks)}${linksHtml('反链链接',p.backlinks)}`;$('postDialog').showModal()}
+    function setupFilters(){const regions=[...new Set(allPosts.flatMap(p=>p.regions))].sort(),platforms=[...new Set(allPosts.flatMap(p=>p.platforms))].sort();$('regionFilter').insertAdjacentHTML('beforeend',regions.map(x=>`<option>${esc(x)}</option>`).join(''));$('platformFilter').insertAdjacentHTML('beforeend',platforms.map(x=>`<option>${esc(x)}</option>`).join(''));['monthFilter','regionFilter','platformFilter','searchFilter'].forEach(id=>$(id).addEventListener(id==='searchFilter'?'input':'change',render));document.querySelectorAll('.view-btn').forEach(btn=>btn.onclick=()=>{view=btn.dataset.view;document.querySelectorAll('.view-btn').forEach(x=>x.classList.toggle('active',x===btn));$('calendar').style.display=view==='calendar'?'grid':'none';$('list').classList.toggle('open',view==='list')})}
+    async function start(){renderHubs();try{const response=await fetch('./schedule-data.json',{cache:'no-store'});if(!response.ok)throw new Error(`HTTP ${response.status}`);const data=await response.json();allPosts=(data.posts||[]).map((p,i)=>({...p,publicId:i,platforms:Array.isArray(p.platforms)?p.platforms:[],regions:Array.isArray(p.regions)?p.regions:[],types:Array.isArray(p.types)?p.types:[],docLinks:p.docLinks||{},backlinks:p.backlinks||{},order:Number(p.order)||0}));$('metricPosts').textContent=allPosts.length;$('metricRegions').textContent=new Set(allPosts.flatMap(p=>p.regions)).size;$('metricPlatforms').textContent=new Set(allPosts.flatMap(p=>p.platforms)).size;$('metricPriority').textContent=allPosts.filter(p=>p.priority==='S级').length;const d=data.updatedAt?new Date(data.updatedAt):null;$('updated').textContent=d&&!Number.isNaN(d.valueOf())?`上次更新时间：${new Intl.DateTimeFormat('zh-CN',{year:'numeric',month:'long',day:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Shanghai'}).format(d)}`:'上次更新时间：待更新';setupFilters();render()}catch(error){document.querySelector('.panel').innerHTML=`<div class="error">排期数据读取失败，请稍后刷新。<br><small>${esc(error.message)}</small></div>`;$('updated').textContent='暂时无法读取排期'}}
+    $('closeDialog').onclick=()=>$('postDialog').close();$('postDialog').addEventListener('click',e=>{if(e.target===$('postDialog'))$('postDialog').close()});start();
+  </script>
+</body>
+</html>
