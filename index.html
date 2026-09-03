@@ -122,7 +122,9 @@
   const $=s=>document.querySelector(s);
   function trText(cn){return titleMap[cn]||uiMap[cn]||regionMap[cn]||platformMap[cn]||weekdayMap[cn]||cn}
   function setText(el,cn){if(!el.dataset.cnText)el.dataset.cnText=cn;el.textContent=lang==='ko'?trText(el.dataset.cnText):el.dataset.cnText}
+  let observer;
   function translate(){
+    observer?.disconnect();
     document.documentElement.lang=lang==='ko'?'ko':'zh-CN';
     const btn=$('.language-toggle');if(btn)btn.textContent=lang==='ko'?'中文':'한국어';
     document.querySelectorAll('.readonly,.hero h1,.hero p,.section-head h2,.section-head span,.metric span,.metric small,.toolbar,.legend span,.toplinks a').forEach(el=>{if(el.matches('select,.toolbar'))return;const cn=el.dataset.cnText||el.textContent.trim();if(cn)setText(el,cn)});
@@ -132,9 +134,10 @@
     document.querySelectorAll('.post small').forEach(el=>{const cn=el.dataset.cnText||el.textContent.trim();el.dataset.cnText=cn;el.textContent=lang==='ko'?cn.split(' · ').map(x=>trText(x)).join(' · '):cn});
     document.querySelectorAll('.list-row span,.list-row b').forEach(el=>{const cn=el.dataset.cnText||el.textContent.trim();el.dataset.cnText=cn;el.textContent=lang==='ko'?trText(cn):cn});
     document.querySelectorAll('#dialogDate').forEach(el=>{const cn=el.dataset.cnText||el.textContent.trim();el.dataset.cnText=cn;el.textContent=lang==='ko'?cn.replace(/(\\d{4})年(\\d+)月(\\d+)日(周[日一二三四五六])/,(_,y,m,d,w)=>`${y}년 ${m}월 ${d}일 ${weekdayMap[w]}`):cn});
+    observer?.observe(document.body,{childList:true,subtree:true});
   }
   const toggle=$('.language-toggle')||document.createElement('button');toggle.className='language-toggle';toggle.type='button';toggle.setAttribute('aria-label','语言切换');toggle.textContent=lang==='ko'?'中文':'한국어';if(!toggle.parentElement) $('.toplinks')?.appendChild(toggle);toggle.onclick=()=>{lang=lang==='ko'?'zh':'ko';localStorage.setItem('lumi-public-language',lang);translate()};
-  const observer=new MutationObserver(()=>translate());observer.observe(document.body,{childList:true,subtree:true});
+  observer=new MutationObserver(()=>translate());observer.observe(document.body,{childList:true,subtree:true});
   setTimeout(translate,0);setTimeout(translate,500);setTimeout(translate,1500);
 })();
 </script>

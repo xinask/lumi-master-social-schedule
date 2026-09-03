@@ -16,7 +16,9 @@
   let lang=localStorage.getItem('lumi-language')||'zh';
   const tr=cn=>titleMap[cn]||uiMap[cn]||regionMap[cn]||platformMap[cn]||weekdayMap[cn]||typeMap[cn]||priorityMap[cn]||cn;
   const remember=(el)=>{if(!el.dataset.cnText)el.dataset.cnText=el.textContent.trim();return el.dataset.cnText};
+  let observer;
   function translate(){
+    observer?.disconnect();
     document.documentElement.lang=lang==='ko'?'ko':'zh-CN';
     const button=document.querySelector('.language-toggle');if(button)button.textContent=lang==='ko'?'中文':'한국어';
     document.querySelectorAll('.top .nav button:not(.language-toggle),.top .nav a,.right,.intro h1,.intro p,.intro-note-label,.metric span,.metric small,.panelhead h2,.panelhead span,.filters label,.filters button,.views button,.legend span,.legend b,.side h3,.dist span,.dist b,.region-hubs-head h2,.region-hubs-head span,.region-hub h3,.post-tools button,.post-form label,.post-form h3,.post-form button,.link-section h4,.no-links,.post-link,.today-execution-date,.today-execution-weekday,.today-execution-count,.today-execution-empty strong,.today-execution-empty,.timeline-date strong,.timeline-date span,.timeline-time,.timeline-link').forEach(el=>{const cn=remember(el);el.textContent=lang==='ko'?tr(cn):cn});
@@ -27,12 +29,13 @@
     document.querySelectorAll('input[placeholder],textarea[placeholder]').forEach(el=>{if(!el.dataset.cnPlaceholder)el.dataset.cnPlaceholder=el.getAttribute('placeholder');const cn=el.dataset.cnPlaceholder;el.setAttribute('placeholder',lang==='ko'?(cn==='搜索标题、平台、地区或负责人'?'제목·플랫폼·지역·담당자 검색':cn==='搜索贴文标题'?'게시물 제목 검색':cn):cn)});
     document.querySelectorAll('#postDay option,#monthFilter option,#regionFilter option,#platformFilter option').forEach(el=>{const cn=el.dataset.cnText||el.textContent.trim();el.dataset.cnText=cn;el.textContent=lang==='ko'?tr(cn):cn});
     const dialogDate=document.querySelector('#dialogDate');if(dialogDate){const cn=remember(dialogDate);dialogDate.textContent=lang==='ko'?cn.replace(/(\\d{4})年(\\d+)月(\\d+)日(周[日一二三四五六])/,(_,y,m,d,w)=>`${y}년 ${m}월 ${d}일 ${weekdayMap[w]}`):cn}
+    observer?.observe(document.body,{childList:true,subtree:true});
   }
   const host=document.querySelector('.top .nav')||document.querySelector('.toplinks');
   if(!host)return;
   const toggle=document.createElement('button');toggle.className='language-toggle';toggle.type='button';toggle.setAttribute('aria-label','语言切换');toggle.textContent=lang==='ko'?'中文':'한국어';host.appendChild(toggle);
   toggle.onclick=()=>{lang=lang==='ko'?'zh':'ko';localStorage.setItem('lumi-language',lang);translate()};
   document.addEventListener('click',event=>{const edit=event.target.closest?.('.post-edit');if(!edit)return;const card=edit.closest('.card');const input=document.getElementById('postTitle');const title=card?.querySelector('b')?.dataset.cnTitle;if(input&&title)setTimeout(()=>{input.value=title},0)},true);
-  const observer=new MutationObserver(()=>translate());observer.observe(document.body,{childList:true,subtree:true});
+  observer=new MutationObserver(()=>translate());observer.observe(document.body,{childList:true,subtree:true});
   setTimeout(translate,0);setTimeout(translate,500);setTimeout(translate,1500);
 })();
