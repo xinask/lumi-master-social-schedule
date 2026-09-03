@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "09/03/2026 12:04:57",
+  "updatedAt": "09/03/2026 13:59:29",
   "posts": [
     {
       "date": "2026-08-17",
@@ -583,6 +583,69 @@
       "order": 87
     },
     {
+      "date": "2026-09-09",
+      "title": "简易制卡台+精密制卡台",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 135
+    },
+    {
+      "date": "2026-09-09",
+      "title": "噜咪卡介绍",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 136
+    },
+    {
+      "date": "2026-09-10",
+      "title": "SL停服预告",
+      "time": "",
+      "platforms": [
+        "Facebook",
+        "Discord"
+      ],
+      "regions": [
+        "欧美"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 85
+    },
+    {
       "date": "2026-09-10",
       "title": "噜咪档案 水母贝贝",
       "time": "",
@@ -603,25 +666,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 81
-    },
-    {
-      "date": "2026-09-10",
-      "title": "SL停服预告",
-      "time": "",
-      "platforms": [
-        "Facebook",
-        "Discord"
-      ],
-      "regions": [
-        "欧美"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 85
     },
     {
       "date": "2026-09-10",
