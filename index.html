@@ -103,4 +103,38 @@
     $('closeDialog').onclick=()=>$('postDialog').close();$('postDialog').addEventListener('click',e=>{if(e.target===$('postDialog'))$('postDialog').close()});start();
   </script>
 </body>
+<style>
+  .language-toggle{display:inline-flex;align-items:center;min-height:40px;padding:0 13px;border:1px solid #b9d4f3;border-radius:9px;background:#fff;color:#1769d2;font:700 13px/1 inherit;cursor:pointer;white-space:nowrap}
+  .language-toggle:hover{background:#eaf4ff;transform:translateY(-1px)}
+</style>
+<script>
+(()=>{
+  const titleMap={
+    '版本玩法短视频':'버전 플레이 숏폼','草龙时装':'초룡 의상','创作者激励计划':'크리에이터 인센티브 프로그램','大逃杀 线下活动':'배틀로얄 오프라인 이벤트','代言人采访30s预告片':'홍보대사 인터뷰 30초 티저','代言人采访长视频':'홍보대사 인터뷰 롱폼 영상','代言人创意短片 2':'홍보대사 크리에이티브 숏폼 2','代言人创意短片 3':'홍보대사 크리에이티브 숏폼 3','代言人剪影':'홍보대사 실루엣','代言人拍摄快问快答':'홍보대사 촬영 Q&A','代言人正式KV':'홍보대사 공식 KV','倒计时1天':'D-1','倒计时2天':'D-2','倒计时3天':'D-3','定档PV及转抽':'출시일 확정 PV 및 리포스트 이벤트','发疯视频 偷偷':'몰래 찍은 광기 영상','公测福利盘点':'오픈 베타 혜택 정리','光灵技能介绍':'광령 스킬 소개','过往充返信息':'기존 충전 환급 안내','活动日历':'이벤트 캘린더','火龙时装':'화룡 의상','简易制卡台+精密制卡台':'간이 카드 제작대 + 정밀 카드 제작대','静默':'사일런트','流星蝶时装':'유성나비 의상','噜咪档案 花舞精灵平面':'루미 도감 꽃춤 요정 일러스트','噜咪档案 花舞精灵视频':'루미 도감 꽃춤 요정 영상','噜咪档案 筋肉狗':'루미 도감 근육 강아지','噜咪档案 练习鸡':'루미 도감 연습 병아리','噜咪档案 铃兰鹿':'루미 도감 은방울꽃 사슴','噜咪档案 龙神':'루미 도감 용신','噜咪档案 水母贝贝':'루미 도감 해파리 베베','噜咪档案 小火喵':'루미 도감 꼬마 불꽃냥','噜咪档案 小叶鼠':'루미 도감 새잎 쥐','噜咪档案 玄武':'루미 도감 현무','噜咪档案 云朵毛毛':'루미 도감 구름 몽실이','噜咪档案 竹隐只鼬平面':'루미 도감 대나무 은신 족제비 일러스트','噜咪档案 竹隐只鼬视频':'루미 도감 대나무 은신 족제비 영상','噜咪互动视频 调色盘':'루미 인터랙티브 영상 팔레트','噜咪卡介绍':'루미 카드 소개','噜咪日常':'루미 일상','噜咪设计档案 小火喵':'루미 디자인 아카이브 꼬마 불꽃냥','噜咪性格测试':'루미 성격 테스트','噜咪羊了个羊':'루미 양 게임','农田':'농장','秋季探索主题贴':'가을 탐험 테마 게시물','晒出你抓到的第一只噜咪！day1':'처음 잡은 루미를 자랑해 주세요! day 1','晒出你抓到的第一只噜咪！day2':'처음 잡은 루미를 자랑해 주세요! day 2','晒出你抓到的第一只噜咪！day3':'처음 잡은 루미를 자랑해 주세요! day 3','晒出你抓到的第一只噜咪！day4':'처음 잡은 루미를 자랑해 주세요! day 4','社区活动':'커뮤니티 이벤트','社区找不同 day1':'커뮤니티 틀린 그림 찾기 day 1','社区找不同 day2':'커뮤니티 틀린 그림 찾기 day 2','社区找不同 day3':'커뮤니티 틀린 그림 찾기 day 3','属性介绍+克制关系':'속성 소개 + 상성 관계','玩家家园UGC征集':'플레이어 홈 UGC 모집','万圣节主题内容（待确认）':'할로윈 테마 콘텐츠 (확인 필요)','下雨小短片':'비 오는 날 숏폼','星辉苗圃+星辉树叶+养成介绍':'별빛 묘목장 + 별빛 잎사귀 + 성장 소개','饮品摊':'음료 가판대','预约里程碑':'사전예약 마일스톤','长线IP联动预告':'장기 IP 콜라보 예고','DC引导贴文':'Discord 안내 게시물','Lounge预注册认证活动':'Lounge 사전예약 인증 이벤트','Lumi角色档案':'Lumi 캐릭터 도감','OOH打卡活动':'OOH 인증 이벤트','S1赛季PV带转抽':'S1 시즌 PV 및 리포스트 이벤트','SL活动日历':'SL 이벤트 캘린더','SL天才交易员':'SL 천재 트레이더','SL停服公告':'SL 점검 공지','SL停服预告':'SL 점검 예고','SL周礼包码':'SL 주간 쿠폰 코드'
+  };
+  const uiMap={'公开只读版':'공개 읽기 전용','海外社媒内容排期':'해외 소셜 콘텐츠 캘린더','供合作伙伴查看的最新排期，仅支持浏览与打开已配置链接。':'파트너 확인용 최신 캘린더입니다. 열람 및 설정된 링크만 이용할 수 있습니다.','排期内容':'캘린더 콘텐츠','当前展示范围':'현재 표시 범위','覆盖地区':'대상 지역','已配置地区':'설정된 지역','覆盖平台':'대상 플랫폼','已配置平台':'설정된 플랫폼','S级内容':'S급 콘텐츠','重点节点':'주요 일정','地区社媒阵地':'지역별 소셜 채널','点击按钮跳转至官方账号':'버튼을 눌러 공식 계정으로 이동','筛选':'필터','全部月份':'전체 월','全部地区':'전체 지역','全部平台':'전체 플랫폼','搜索贴文标题':'게시물 제목 검색','日历':'캘린더','列表':'목록','版本/活动':'버전/이벤트','噜咪/角色':'루미/캐릭터','社区/UGC':'커뮤니티/UGC','发行/转化':'출시/전환','文档链接':'문서 링크','反链链接':'게시 링크','暂未配置':'아직 설정되지 않음','关闭':'닫기','待定':'미정','素材尺寸参考':'소재 규격 참고','X发帖预览':'X 게시물 미리보기','常用工具':'바로가기'};
+  const regionMap={'欧美':'서구권','日本':'일본','台港澳':'대만·홍콩·마카오','韩国':'한국','俄罗斯':'러시아','全球':'글로벌'};
+  const platformMap={'全平台通发':'전체 채널','全平台':'전체 채널','Facebook':'Facebook','Instagram':'Instagram','Discord':'Discord','X':'X','TikTok':'TikTok','YouTube':'YouTube','Naver Lounge':'Naver Lounge','VK':'VK','Telegram':'Telegram','IG / X':'IG / X','FB / Discord':'FB / Discord'};
+  const weekdayMap={'周日':'일요일','周一':'월요일','周二':'화요일','周三':'수요일','周四':'목요일','周五':'금요일','周六':'토요일'};
+  const typeMap={'version':'버전/이벤트','lumi':'루미/캐릭터','community':'커뮤니티/UGC','publishing':'출시/전환'};
+  let lang=localStorage.getItem('lumi-public-language')||'zh';
+  const $=s=>document.querySelector(s);
+  function trText(cn){return titleMap[cn]||uiMap[cn]||regionMap[cn]||platformMap[cn]||weekdayMap[cn]||cn}
+  function setText(el,cn){if(!el.dataset.cnText)el.dataset.cnText=cn;el.textContent=lang==='ko'?trText(el.dataset.cnText):el.dataset.cnText}
+  function translate(){
+    document.documentElement.lang=lang==='ko'?'ko':'zh-CN';
+    const btn=$('.language-toggle');if(btn)btn.textContent=lang==='ko'?'中文':'한국어';
+    document.querySelectorAll('.readonly,.hero h1,.hero p,.section-head h2,.section-head span,.metric span,.metric small,.toolbar,.legend span,.toplinks a').forEach(el=>{if(el.matches('select,.toolbar'))return;const cn=el.dataset.cnText||el.textContent.trim();if(cn)setText(el,cn)});
+    document.querySelectorAll('#monthFilter option,#regionFilter option,#platformFilter option').forEach(el=>{const cn=el.dataset.cnText||el.textContent.trim();el.dataset.cnText=cn;el.textContent=lang==='ko'?trText(cn):cn});
+    document.querySelectorAll('.weekday,.day-head span:first-child,.month-label').forEach(el=>{const cn=el.dataset.cnText||el.textContent.trim();el.dataset.cnText=cn;el.textContent=lang==='ko'?(cn.match(/^2026年(\\d+)月$/)?`2026년 ${RegExp.$1}월`:trText(cn)):cn});
+    document.querySelectorAll('.post b,.list-row b:nth-of-type(2),#dialogTitle').forEach(el=>{const cn=el.dataset.cnText||el.textContent.trim();el.dataset.cnText=cn;el.textContent=lang==='ko'?trText(cn):cn});
+    document.querySelectorAll('.post small').forEach(el=>{const cn=el.dataset.cnText||el.textContent.trim();el.dataset.cnText=cn;el.textContent=lang==='ko'?cn.split(' · ').map(x=>trText(x)).join(' · '):cn});
+    document.querySelectorAll('.list-row span,.list-row b').forEach(el=>{const cn=el.dataset.cnText||el.textContent.trim();el.dataset.cnText=cn;el.textContent=lang==='ko'?trText(cn):cn});
+    document.querySelectorAll('#dialogDate').forEach(el=>{const cn=el.dataset.cnText||el.textContent.trim();el.dataset.cnText=cn;el.textContent=lang==='ko'?cn.replace(/(\\d{4})年(\\d+)月(\\d+)日(周[日一二三四五六])/,(_,y,m,d,w)=>`${y}년 ${m}월 ${d}일 ${weekdayMap[w]}`):cn});
+  }
+  const toggle=document.createElement('button');toggle.className='language-toggle';toggle.type='button';toggle.setAttribute('aria-label','语言切换');toggle.textContent=lang==='ko'?'中文':'한국어';$('.toplinks')?.appendChild(toggle);toggle.onclick=()=>{lang=lang==='ko'?'zh':'ko';localStorage.setItem('lumi-public-language',lang);translate()};
+  const observer=new MutationObserver(()=>translate());observer.observe(document.body,{childList:true,subtree:true});
+  setTimeout(translate,0);setTimeout(translate,500);setTimeout(translate,1500);
+})();
+</script>
 </html>
