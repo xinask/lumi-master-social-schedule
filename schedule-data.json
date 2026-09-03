@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "09/03/2026 12:04:57",
+  "updatedAt": "09/03/2026 15:34:01",
   "posts": [
     {
       "date": "2026-08-17",
@@ -500,28 +500,6 @@
     },
     {
       "date": "2026-09-08",
-      "title": "噜咪档案 云朵毛毛",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 80
-    },
-    {
-      "date": "2026-09-08",
       "title": "代言人创意短片 3",
       "time": "",
       "platforms": [
@@ -581,6 +559,50 @@
       "docLinks": {},
       "backlinks": {},
       "order": 87
+    },
+    {
+      "date": "2026-09-09",
+      "title": "简易制卡台+精密制卡台",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 135
+    },
+    {
+      "date": "2026-09-09",
+      "title": "噜咪卡介绍",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 136
     },
     {
       "date": "2026-09-10",
@@ -727,28 +749,6 @@
       "order": 79
     },
     {
-      "date": "2026-09-13",
-      "title": "火龙时装",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 104
-    },
-    {
       "date": "2026-09-14",
       "title": "倒计时3天",
       "time": "",
@@ -772,6 +772,28 @@
     },
     {
       "date": "2026-09-14",
+      "title": "噜咪档案 云朵毛毛",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 80
+    },
+    {
+      "date": "2026-09-14",
       "title": "SL停服公告",
       "time": "",
       "platforms": [
@@ -788,6 +810,28 @@
       "docLinks": {},
       "backlinks": {},
       "order": 103
+    },
+    {
+      "date": "2026-09-14",
+      "title": "火龙时装",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 104
     },
     {
       "date": "2026-09-15",
