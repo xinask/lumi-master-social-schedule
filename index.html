@@ -127,7 +127,7 @@
     observer?.disconnect();
     document.documentElement.lang=lang==='ko'?'ko':'zh-CN';
     const btn=$('.language-toggle');if(btn)btn.textContent=lang==='ko'?'中文':'한국어';
-    document.querySelectorAll('.readonly,.hero h1,.hero p,.section-head h2,.section-head span,.metric span,.metric small,.toolbar,.legend span,.toplinks a').forEach(el=>{if(el.matches('select,.toolbar'))return;const cn=el.dataset.cnText||el.textContent.trim();if(cn)setText(el,cn)});
+    document.querySelectorAll('.readonly,.hero h1,.hero p,.section-head h2,.section-head span,.hub h3,.metric span,.metric small,.toolbar,.legend span,.toplinks a,.detail label,.link-section h4,.no-links').forEach(el=>{if(el.matches('select,.toolbar'))return;const cn=el.dataset.cnText||el.textContent.trim();if(cn)setText(el,cn)});
     document.querySelectorAll('#monthFilter option,#regionFilter option,#platformFilter option').forEach(el=>{const cn=el.dataset.cnText||el.textContent.trim();el.dataset.cnText=cn;el.textContent=lang==='ko'?trText(cn):cn});
     document.querySelectorAll('.weekday,.day-head span:first-child,.month-label').forEach(el=>{const cn=el.dataset.cnText||el.textContent.trim();el.dataset.cnText=cn;el.textContent=lang==='ko'?(cn.match(/^2026年(\\d+)月$/)?`2026년 ${RegExp.$1}월`:trText(cn)):cn});
     document.querySelectorAll('.post b,.list-row b:nth-of-type(2),#dialogTitle').forEach(el=>{const cn=el.dataset.cnText||el.textContent.trim();el.dataset.cnText=cn;el.textContent=lang==='ko'?trText(cn):cn});
