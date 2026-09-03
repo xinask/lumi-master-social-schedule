@@ -31,6 +31,7 @@
     <nav class="toplinks" aria-label="常用工具">
       <a href="https://claude.ai/public/artifacts/1052c657-1c19-409e-9e7f-30f627106486" target="_blank" rel="noopener noreferrer">素材尺寸参考</a>
       <a href="https://publer.com/tools/twitter-post-preview" target="_blank" rel="noopener noreferrer">X发帖预览</a>
+      <button class="language-toggle" type="button" aria-label="语言切换">한국어</button>
     </nav>
   </header>
 
@@ -132,7 +133,7 @@
     document.querySelectorAll('.list-row span,.list-row b').forEach(el=>{const cn=el.dataset.cnText||el.textContent.trim();el.dataset.cnText=cn;el.textContent=lang==='ko'?trText(cn):cn});
     document.querySelectorAll('#dialogDate').forEach(el=>{const cn=el.dataset.cnText||el.textContent.trim();el.dataset.cnText=cn;el.textContent=lang==='ko'?cn.replace(/(\\d{4})年(\\d+)月(\\d+)日(周[日一二三四五六])/,(_,y,m,d,w)=>`${y}년 ${m}월 ${d}일 ${weekdayMap[w]}`):cn});
   }
-  const toggle=document.createElement('button');toggle.className='language-toggle';toggle.type='button';toggle.setAttribute('aria-label','语言切换');toggle.textContent=lang==='ko'?'中文':'한국어';$('.toplinks')?.appendChild(toggle);toggle.onclick=()=>{lang=lang==='ko'?'zh':'ko';localStorage.setItem('lumi-public-language',lang);translate()};
+  const toggle=$('.language-toggle')||document.createElement('button');toggle.className='language-toggle';toggle.type='button';toggle.setAttribute('aria-label','语言切换');toggle.textContent=lang==='ko'?'中文':'한국어';if(!toggle.parentElement) $('.toplinks')?.appendChild(toggle);toggle.onclick=()=>{lang=lang==='ko'?'zh':'ko';localStorage.setItem('lumi-public-language',lang);translate()};
   const observer=new MutationObserver(()=>translate());observer.observe(document.body,{childList:true,subtree:true});
   setTimeout(translate,0);setTimeout(translate,500);setTimeout(translate,1500);
 })();
