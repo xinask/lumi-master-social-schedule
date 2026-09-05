@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "09/04/2026 20:41:10",
+  "updatedAt": "09/05/2026 20:58:14",
   "posts": [
     {
       "date": "2026-08-17",
@@ -363,6 +363,24 @@
     },
     {
       "date": "2026-09-03",
+      "title": "HMT静默 军人节",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "台港澳"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 214
+    },
+    {
+      "date": "2026-09-03",
       "title": "噜咪档案 小火喵",
       "time": "17:00",
       "platforms": [
@@ -418,24 +436,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 89
-    },
-    {
-      "date": "2026-09-03",
-      "title": "HMT静默 军人节",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "台港澳"
-      ],
-      "types": [
-        "community"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 214
     },
     {
       "date": "2026-09-04",
@@ -534,6 +534,25 @@
       "order": 91
     },
     {
+      "date": "2026-09-07",
+      "title": "SL停充值及关服预告",
+      "time": "",
+      "platforms": [
+        "Facebook",
+        "Discord"
+      ],
+      "regions": [
+        "欧美"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 85
+    },
+    {
       "date": "2026-09-08",
       "title": "代言人创意短片 3",
       "time": "",
@@ -553,130 +572,6 @@
     },
     {
       "date": "2026-09-09",
-      "title": "农田",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 86
-    },
-    {
-      "date": "2026-09-09",
-      "title": "饮品摊",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 87
-    },
-    {
-      "date": "2026-09-09",
-      "title": "简易制卡台+精密制卡台",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 135
-    },
-    {
-      "date": "2026-09-09",
-      "title": "噜咪卡介绍",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 136
-    },
-    {
-      "date": "2026-09-10",
-      "title": "代言人拍摄花絮视频",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "韩国"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 137
-    },
-    {
-      "date": "2026-09-10",
-      "title": "代言人剧照",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "韩国"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 138
-    },
-    {
-      "date": "2026-09-10",
       "title": "噜咪档案 水母贝贝",
       "time": "",
       "platforms": [
@@ -699,22 +594,21 @@
     },
     {
       "date": "2026-09-10",
-      "title": "SL停服预告",
+      "title": "代言人拍摄花絮视频&剧照",
       "time": "",
       "platforms": [
-        "Facebook",
-        "Discord"
+        "全平台通发"
       ],
       "regions": [
-        "欧美"
+        "韩国"
       ],
       "types": [
-        "version"
+        "publishing"
       ],
-      "priority": "A级",
+      "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 85
+      "order": 137
     },
     {
       "date": "2026-09-10",
@@ -812,94 +706,6 @@
       "order": 139
     },
     {
-      "date": "2026-09-12",
-      "title": "大司马联动爆料",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 145
-    },
-    {
-      "date": "2026-09-12",
-      "title": "老番茄联动爆料",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 146
-    },
-    {
-      "date": "2026-09-12",
-      "title": "噜咪档案 练习鸡",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 78
-    },
-    {
-      "date": "2026-09-12",
-      "title": "噜咪档案 筋肉狗",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 79
-    },
-    {
       "date": "2026-09-13",
       "title": "代言人广告2",
       "time": "",
@@ -960,7 +766,7 @@
     },
     {
       "date": "2026-09-13",
-      "title": "星辉苗圃+星辉树叶+养成介绍",
+      "title": "养成资源介绍（树叶、星辉星冕）",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -982,7 +788,7 @@
     },
     {
       "date": "2026-09-13",
-      "title": "高级养成资源介绍",
+      "title": "噜咪档案 狮鹫宝宝",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -995,38 +801,16 @@
         "俄罗斯"
       ],
       "types": [
-        "version"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 147
-    },
-    {
-      "date": "2026-09-13",
-      "title": "火龙时装",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
+        "lumi"
       ],
       "priority": "B级",
       "docLinks": {},
       "backlinks": {},
-      "order": 104
+      "order": 153
     },
     {
       "date": "2026-09-13",
-      "title": "水龙时装",
+      "title": "噜咪档案 黄风大圣",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -1039,12 +823,12 @@
         "俄罗斯"
       ],
       "types": [
-        "version"
+        "lumi"
       ],
       "priority": "B级",
       "docLinks": {},
       "backlinks": {},
-      "order": 148
+      "order": 155
     },
     {
       "date": "2026-09-14",
@@ -1063,98 +847,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 141
-    },
-    {
-      "date": "2026-09-14",
-      "title": "老番茄噜咪banner 1",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi",
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 149
-    },
-    {
-      "date": "2026-09-14",
-      "title": "老番茄次元卡banner 1",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi",
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 150
-    },
-    {
-      "date": "2026-09-14",
-      "title": "大司马噜咪banner 1",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi",
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 151
-    },
-    {
-      "date": "2026-09-14",
-      "title": "大司马次元卡banner 1",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi",
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 152
     },
     {
       "date": "2026-09-14",
@@ -1180,7 +872,7 @@
     },
     {
       "date": "2026-09-14",
-      "title": "噜咪档案 狮鹫宝宝",
+      "title": "噜咪档案 练习鸡",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -1195,10 +887,76 @@
       "types": [
         "lumi"
       ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 78
+    },
+    {
+      "date": "2026-09-14",
+      "title": "噜咪档案 筋肉狗",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 79
+    },
+    {
+      "date": "2026-09-14",
+      "title": "火龙时装",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
       "priority": "B级",
       "docLinks": {},
       "backlinks": {},
-      "order": 153
+      "order": 104
+    },
+    {
+      "date": "2026-09-15",
+      "title": "S1赛季预告 含活动日历",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 119
     },
     {
       "date": "2026-09-15",
@@ -1217,6 +975,73 @@
       "docLinks": {},
       "backlinks": {},
       "order": 142
+    },
+    {
+      "date": "2026-09-15",
+      "title": "噜咪图鉴 骑士铠",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 165
+    },
+    {
+      "date": "2026-09-15",
+      "title": "骑士铠时装+罗盘+手套",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 167
+    },
+    {
+      "date": "2026-09-15",
+      "title": "公测整体改动内容",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version",
+        "publishing"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 218
     },
     {
       "date": "2026-09-15",
@@ -1242,6 +1067,28 @@
     },
     {
       "date": "2026-09-15",
+      "title": "草龙时装",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 106
+    },
+    {
+      "date": "2026-09-15",
       "title": "噜咪设计档案 小火喵",
       "time": "12:00",
       "platforms": [
@@ -1261,28 +1108,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 109
-    },
-    {
-      "date": "2026-09-15",
-      "title": "公测活动抢先看 含活动日历 +开服弹珠玩法",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 119
     },
     {
       "date": "2026-09-15",
@@ -1308,7 +1133,7 @@
     },
     {
       "date": "2026-09-15",
-      "title": "噜咪档案 黄风大圣",
+      "title": "噜咪档案 草龙",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -1323,10 +1148,10 @@
       "types": [
         "lumi"
       ],
-      "priority": "B级",
+      "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 155
+      "order": 162
     },
     {
       "date": "2026-09-16",
@@ -1391,6 +1216,50 @@
     },
     {
       "date": "2026-09-16",
+      "title": "噜咪档案 玄武",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 107
+    },
+    {
+      "date": "2026-09-16",
+      "title": "噜咪档案 龙神",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 133
+    },
+    {
+      "date": "2026-09-16",
       "title": "代言人广告5",
       "time": "",
       "platforms": [
@@ -1406,28 +1275,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 143
-    },
-    {
-      "date": "2026-09-16",
-      "title": "老番茄联动活动公告",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 157
     },
     {
       "date": "2026-09-16",
@@ -1450,50 +1297,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 158
-    },
-    {
-      "date": "2026-09-16",
-      "title": "噜咪档案 海浪龙 异",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 159
-    },
-    {
-      "date": "2026-09-16",
-      "title": "噜咪档案 响尾眼镜蛇 异",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 160
     },
     {
       "date": "2026-09-16",
@@ -1534,28 +1337,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 96
-    },
-    {
-      "date": "2026-09-16",
-      "title": "噜咪档案 龙神",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 133
     },
     {
       "date": "2026-09-17",
@@ -1599,28 +1380,6 @@
     },
     {
       "date": "2026-09-17",
-      "title": "噜咪档案 玄武",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 107
-    },
-    {
-      "date": "2026-09-17",
       "title": "创作者激励计划",
       "time": "",
       "platforms": [
@@ -1643,7 +1402,7 @@
     },
     {
       "date": "2026-09-17",
-      "title": "噜咪档案 祥云鹿",
+      "title": "噜咪档案 海浪龙 异",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -1661,7 +1420,7 @@
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 134
+      "order": 159
     },
     {
       "date": "2026-09-17",
@@ -1687,53 +1446,7 @@
     },
     {
       "date": "2026-09-17",
-      "title": "老番茄实机",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi",
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 163
-    },
-    {
-      "date": "2026-09-17",
-      "title": "大司马实机",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi",
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 164
-    },
-    {
-      "date": "2026-09-17",
-      "title": "噜咪档案 草龙",
+      "title": "噜咪图鉴 铃兰鹿",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -1748,14 +1461,14 @@
       "types": [
         "lumi"
       ],
-      "priority": "A级",
+      "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 162
+      "order": 172
     },
     {
       "date": "2026-09-17",
-      "title": "晒出你抓到的第一只噜咪！day1",
+      "title": "公测社区活动",
       "time": "",
       "platforms": [
         "X",
@@ -1797,33 +1510,8 @@
       "order": 99
     },
     {
-      "date": "2026-09-18",
-      "title": "晒出你抓到的第一只噜咪！day2",
-      "time": "",
-      "platforms": [
-        "X",
-        "Discord",
-        "Naver Lounge",
-        "VK"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "community"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 115
-    },
-    {
       "date": "2026-09-19",
-      "title": "噜咪图鉴 骑士铠",
+      "title": "噜咪档案 祥云鹿",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -1841,29 +1529,7 @@
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 165
-    },
-    {
-      "date": "2026-09-19",
-      "title": "骑士铠时装+罗盘+手套",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 167
+      "order": 134
     },
     {
       "date": "2026-09-19",
@@ -1933,7 +1599,7 @@
     },
     {
       "date": "2026-09-19",
-      "title": "噜咪图鉴 铃兰鹿",
+      "title": "噜咪图鉴 冰霜魔狼 3D",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -1951,51 +1617,7 @@
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 172
-    },
-    {
-      "date": "2026-09-19",
-      "title": "光灵技能介绍",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 83
-    },
-    {
-      "date": "2026-09-19",
-      "title": "属性介绍+克制关系",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 84
+      "order": 171
     },
     {
       "date": "2026-09-19",
@@ -2017,7 +1639,7 @@
     },
     {
       "date": "2026-09-19",
-      "title": "草龙时装",
+      "title": "噜咪档案 响尾眼镜蛇 异",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2030,12 +1652,12 @@
         "俄罗斯"
       ],
       "types": [
-        "version"
+        "lumi"
       ],
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 106
+      "order": 160
     },
     {
       "date": "2026-09-19",
@@ -2061,7 +1683,7 @@
     },
     {
       "date": "2026-09-19",
-      "title": "噜咪图鉴 衡星鸮",
+      "title": "噜咪档案 旋风柴 3D",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2079,32 +1701,7 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 171
-    },
-    {
-      "date": "2026-09-19",
-      "title": "晒出你抓到的第一只噜咪！day3",
-      "time": "",
-      "platforms": [
-        "X",
-        "Discord",
-        "Naver Lounge",
-        "VK"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "community"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 116
+      "order": 220
     },
     {
       "date": "2026-09-20",
@@ -2127,6 +1724,50 @@
       "docLinks": {},
       "backlinks": {},
       "order": 176
+    },
+    {
+      "date": "2026-09-20",
+      "title": "玄武典藏建筑",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 222
+    },
+    {
+      "date": "2026-09-20",
+      "title": "龙神建筑",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 223
     },
     {
       "date": "2026-09-20",
@@ -2170,75 +1811,6 @@
       "order": 173
     },
     {
-      "date": "2026-09-20",
-      "title": "噜咪档案 绽放",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 174
-    },
-    {
-      "date": "2026-09-20",
-      "title": "噜咪档案 魔魔猪",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 175
-    },
-    {
-      "date": "2026-09-20",
-      "title": "晒出你抓到的第一只噜咪！day4",
-      "time": "",
-      "platforms": [
-        "X",
-        "Discord",
-        "Naver Lounge",
-        "VK"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "community"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 117
-    },
-    {
       "date": "2026-09-21",
       "title": "蜜桃猫时装KV x2",
       "time": "",
@@ -2260,6 +1832,94 @@
       "docLinks": {},
       "backlinks": {},
       "order": 177
+    },
+    {
+      "date": "2026-09-21",
+      "title": "猫鲨妙妙屋",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 271
+    },
+    {
+      "date": "2026-09-21",
+      "title": "噜咪档案 绽放",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 174
+    },
+    {
+      "date": "2026-09-21",
+      "title": "噜咪档案 衡星鸮",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 221
+    },
+    {
+      "date": "2026-09-21",
+      "title": "噜咪档案 木秤鸟",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 224
     },
     {
       "date": "2026-09-22",
@@ -2285,7 +1945,7 @@
     },
     {
       "date": "2026-09-22",
-      "title": "蜜桃猫联动美术KV",
+      "title": "蜜桃猫噜咪 普通",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2298,16 +1958,16 @@
         "俄罗斯"
       ],
       "types": [
-        "publishing"
+        "lumi"
       ],
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 178
+      "order": 225
     },
     {
       "date": "2026-09-22",
-      "title": "蜜桃猫联动公告",
+      "title": "蜜桃猫噜咪 高级卡",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2320,16 +1980,16 @@
         "俄罗斯"
       ],
       "types": [
-        "publishing"
+        "lumi"
       ],
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 179
+      "order": 226
     },
     {
       "date": "2026-09-22",
-      "title": "老番茄时装banner x1",
+      "title": "简易制卡台+精密制卡台",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2342,16 +2002,16 @@
         "俄罗斯"
       ],
       "types": [
-        "publishing"
+        "version"
       ],
-      "priority": "S级",
+      "priority": "C级",
       "docLinks": {},
       "backlinks": {},
-      "order": 180
+      "order": 268
     },
     {
       "date": "2026-09-22",
-      "title": "大司马时装banner x1",
+      "title": "噜咪卡介绍",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2364,34 +2024,12 @@
         "俄罗斯"
       ],
       "types": [
-        "publishing"
+        "version"
       ],
-      "priority": "S级",
+      "priority": "C级",
       "docLinks": {},
       "backlinks": {},
-      "order": 181
-    },
-    {
-      "date": "2026-09-22",
-      "title": "噜咪性格测试",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "community"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 118
+      "order": 269
     },
     {
       "date": "2026-09-23",
@@ -2417,7 +2055,25 @@
     },
     {
       "date": "2026-09-23",
-      "title": "大司马联动活动公告",
+      "title": "日本LINE小游戏版本上线 社媒宣传BANNER",
+      "time": "",
+      "platforms": [
+        "X"
+      ],
+      "regions": [
+        "日本"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 219
+    },
+    {
+      "date": "2026-09-23",
+      "title": "赛季时装展示",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2430,16 +2086,60 @@
         "俄罗斯"
       ],
       "types": [
-        "publishing"
+        "version"
       ],
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 183
+      "order": 227
+    },
+    {
+      "date": "2026-09-23",
+      "title": "噜咪档案 月兔 异",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 187
+    },
+    {
+      "date": "2026-09-23",
+      "title": "流星祭坛+祈露池",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "C级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 270
     },
     {
       "date": "2026-09-24",
-      "title": "蜜桃猫联动PV",
+      "title": "蜜桃猫联动活动公告",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2457,7 +2157,7 @@
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 184
+      "order": 179
     },
     {
       "date": "2026-09-24",
@@ -2480,6 +2180,28 @@
       "docLinks": {},
       "backlinks": {},
       "order": 185
+    },
+    {
+      "date": "2026-09-24",
+      "title": "三方支付",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 228
     },
     {
       "date": "2026-09-24",
@@ -2523,8 +2245,8 @@
       "order": 98
     },
     {
-      "date": "2026-09-24",
-      "title": "弹珠预热",
+      "date": "2026-09-25",
+      "title": "蜜桃猫联动美术KV",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2537,12 +2259,56 @@
         "俄罗斯"
       ],
       "types": [
-        "version"
+        "publishing"
       ],
-      "priority": "B级",
+      "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 186
+      "order": 178
+    },
+    {
+      "date": "2026-09-25",
+      "title": "蜜桃猫联动PV",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 184
+    },
+    {
+      "date": "2026-09-25",
+      "title": "噜咪档案 冰川鹿 异",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 189
     },
     {
       "date": "2026-09-25",
@@ -2568,7 +2334,7 @@
     },
     {
       "date": "2026-09-25",
-      "title": "社区找不同 day1",
+      "title": "社区找不同",
       "time": "",
       "platforms": [
         "X",
@@ -2590,28 +2356,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 112
-    },
-    {
-      "date": "2026-09-25",
-      "title": "噜咪档案 月兔 异",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 187
     },
     {
       "date": "2026-09-26",
@@ -2637,7 +2381,7 @@
     },
     {
       "date": "2026-09-26",
-      "title": "噜咪档案 冰川鹿 异",
+      "title": "噜咪档案 黄风大圣 异",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2655,36 +2399,11 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 189
+      "order": 192
     },
     {
       "date": "2026-09-26",
-      "title": "社区找不同 day2",
-      "time": "",
-      "platforms": [
-        "X",
-        "Discord",
-        "Naver Lounge",
-        "VK"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "community"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 113
-    },
-    {
-      "date": "2026-09-26",
-      "title": "噜咪档案 食梦貘",
+      "title": "时装 冰狼暖意",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2697,12 +2416,13 @@
         "俄罗斯"
       ],
       "types": [
+        "version",
         "lumi"
       ],
-      "priority": "B级",
+      "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 190
+      "order": 229
     },
     {
       "date": "2026-09-27",
@@ -2725,28 +2445,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 191
-    },
-    {
-      "date": "2026-09-27",
-      "title": "噜咪档案 黄风大圣 异",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 192
     },
     {
       "date": "2026-09-27",
@@ -2774,8 +2472,30 @@
       "order": 114
     },
     {
+      "date": "2026-09-27",
+      "title": "弹珠玩法介绍",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 230
+    },
+    {
       "date": "2026-09-28",
-      "title": "噜咪档案 金刚狼",
+      "title": "噜咪档案 魔魔猪",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2790,10 +2510,32 @@
       "types": [
         "lumi"
       ],
-      "priority": "B级",
+      "priority": "A级",
       "docLinks": {},
       "backlinks": {},
       "order": 193
+    },
+    {
+      "date": "2026-09-28",
+      "title": "噜咪档案 摸鱼雪貂",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 231
     },
     {
       "date": "2026-09-28",
@@ -2841,6 +2583,116 @@
       "order": 195
     },
     {
+      "date": "2026-09-29",
+      "title": "工会战开启公告",
+      "time": "12:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 232
+    },
+    {
+      "date": "2026-09-29",
+      "title": "噜咪档案 梦游羊",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 233
+    },
+    {
+      "date": "2026-09-30",
+      "title": "集五福活动",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 234
+    },
+    {
+      "date": "2026-09-30",
+      "title": "简易制卡台+精密制卡台",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 135
+    },
+    {
+      "date": "2026-09-30",
+      "title": "噜咪卡介绍",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 136
+    },
+    {
       "date": "2026-10-01",
       "title": "活动日历",
       "time": "",
@@ -2864,29 +2716,7 @@
     },
     {
       "date": "2026-10-02",
-      "title": "噜咪讨伐玩法介绍",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 197
-    },
-    {
-      "date": "2026-10-02",
-      "title": "噜咪档案 花牌孔雀",
+      "title": "噜咪档案 火龙",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2904,7 +2734,51 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 196
+      "order": 198
+    },
+    {
+      "date": "2026-10-02",
+      "title": "噜咪档案 英俊狮鹫·异",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 199
+    },
+    {
+      "date": "2026-10-02",
+      "title": "噜咪档案 发牌雀圣 异",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 200
     },
     {
       "date": "2026-10-02",
@@ -2932,8 +2806,8 @@
       "order": 126
     },
     {
-      "date": "2026-10-03",
-      "title": "噜咪档案 火龙",
+      "date": "2026-10-02",
+      "title": "火龙时装",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2946,16 +2820,17 @@
         "俄罗斯"
       ],
       "types": [
+        "version",
         "lumi"
       ],
-      "priority": "A级",
+      "priority": "B级",
       "docLinks": {},
       "backlinks": {},
-      "order": 198
+      "order": 235
     },
     {
       "date": "2026-10-03",
-      "title": "噜咪档案 英俊狮鹫·异",
+      "title": "噜咪档案 花牌孔雀",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2973,11 +2848,11 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 199
+      "order": 196
     },
     {
-      "date": "2026-10-04",
-      "title": "噜咪档案 发牌雀圣 异",
+      "date": "2026-10-03",
+      "title": "噜咪档案 火龙果",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2995,7 +2870,29 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 200
+      "order": 202
+    },
+    {
+      "date": "2026-10-03",
+      "title": "噜咪短片 3",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 236
     },
     {
       "date": "2026-10-04",
@@ -3020,8 +2917,30 @@
       "order": 201
     },
     {
-      "date": "2026-10-05",
-      "title": "噜咪档案 火龙果",
+      "date": "2026-10-04",
+      "title": "种地活动介绍",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 237
+    },
+    {
+      "date": "2026-10-06",
+      "title": "噜咪档案 头铁牛",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -3037,28 +2956,6 @@
         "lumi"
       ],
       "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 202
-    },
-    {
-      "date": "2026-10-05",
-      "title": "噜咪档案 五只海獭",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "B级",
       "docLinks": {},
       "backlinks": {},
       "order": 203
@@ -3109,7 +3006,7 @@
     },
     {
       "date": "2026-10-09",
-      "title": "噜咪档案 战螂",
+      "title": "噜咪档案 暗兔 异",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -3127,7 +3024,29 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 205
+      "order": 206
+    },
+    {
+      "date": "2026-10-09",
+      "title": "噜咪档案 金刚狼 异",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 238
     },
     {
       "date": "2026-10-09",
@@ -3155,8 +3074,8 @@
       "order": 127
     },
     {
-      "date": "2026-10-10",
-      "title": "Lumi角色档案",
+      "date": "2026-10-09",
+      "title": "金刚狼之月时装",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -3171,10 +3090,10 @@
       "types": [
         "lumi"
       ],
-      "priority": "A级",
+      "priority": "B级",
       "docLinks": {},
       "backlinks": {},
-      "order": 51
+      "order": 239
     },
     {
       "date": "2026-10-10",
@@ -3200,7 +3119,7 @@
     },
     {
       "date": "2026-10-10",
-      "title": "噜咪档案 暗兔 异",
+      "title": "噜咪档案 战螂",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -3218,7 +3137,7 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 206
+      "order": 205
     },
     {
       "date": "2026-10-11",
@@ -3245,7 +3164,29 @@
     },
     {
       "date": "2026-10-11",
-      "title": "噜咪档案 金刚狼 异",
+      "title": "噜咪讨伐玩法介绍",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 240
+    },
+    {
+      "date": "2026-10-12",
+      "title": "噜咪档案 小树仔",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -3260,28 +3201,32 @@
       "types": [
         "lumi"
       ],
-      "priority": "A级",
+      "priority": "B级",
       "docLinks": {},
       "backlinks": {},
-      "order": 208
+      "order": 241
     },
     {
-      "date": "2026-10-13",
-      "title": "噜咪羊了个羊",
+      "date": "2026-10-14",
+      "title": "大司马联动物料",
       "time": "",
       "platforms": [
         "全平台通发"
       ],
       "regions": [
-        "欧美"
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
       ],
       "types": [
-        "community"
+        "publishing"
       ],
-      "priority": "B级",
+      "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 129
+      "order": 242
     },
     {
       "date": "2026-10-15",
@@ -3307,7 +3252,7 @@
     },
     {
       "date": "2026-10-16",
-      "title": "噜咪档案 星影蝎",
+      "title": "噜咪档案 耀光兔·异",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -3328,8 +3273,52 @@
       "order": 209
     },
     {
+      "date": "2026-10-16",
+      "title": "噜咪档案 搏击袋鼠 异",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 244
+    },
+    {
+      "date": "2026-10-16",
+      "title": "社区活动",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 215
+    },
+    {
       "date": "2026-10-17",
-      "title": "噜咪档案 暗兔 含UP池实录",
+      "title": "噜咪档案 暗兔",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -3351,7 +3340,95 @@
     },
     {
       "date": "2026-10-17",
-      "title": "噜咪档案 光兔 异 含实录",
+      "title": "噜咪档案 星影蝎",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 243
+    },
+    {
+      "date": "2026-10-18",
+      "title": "噜咪档案 搏击袋鼠",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 245
+    },
+    {
+      "date": "2026-10-18",
+      "title": "IP漫画 3",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 246
+    },
+    {
+      "date": "2026-10-19",
+      "title": "噜咪档案 勾尾蝎",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 247
+    },
+    {
+      "date": "2026-10-21",
+      "title": "青龙悬念预告",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -3369,28 +3446,10 @@
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 211
+      "order": 248
     },
     {
-      "date": "2026-10-17",
-      "title": "玩家家园UGC征集",
-      "time": "",
-      "platforms": [
-        "FB / Discord"
-      ],
-      "regions": [
-        "台港澳"
-      ],
-      "types": [
-        "community"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 52
-    },
-    {
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "title": "二期通行证预热",
       "time": "",
       "platforms": [
@@ -3434,6 +3493,354 @@
       "order": 124
     },
     {
+      "date": "2026-10-22",
+      "title": "噜咪档案 绽放·异",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 249
+    },
+    {
+      "date": "2026-10-22",
+      "title": "万圣节活动预热",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 250
+    },
+    {
+      "date": "2026-10-23",
+      "title": "噜咪档案 青龙 全景卡",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 251
+    },
+    {
+      "date": "2026-10-23",
+      "title": "青龙典藏建筑",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 253
+    },
+    {
+      "date": "2026-10-23",
+      "title": "噜咪档案 起舞鸭 异",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 252
+    },
+    {
+      "date": "2026-10-23",
+      "title": "社区活动",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 216
+    },
+    {
+      "date": "2026-10-24",
+      "title": "噜咪档案 水龙",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 254
+    },
+    {
+      "date": "2026-10-24",
+      "title": "噜咪档案 海精灵 异",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 255
+    },
+    {
+      "date": "2026-10-24",
+      "title": "噜咪短片 6",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 256
+    },
+    {
+      "date": "2026-10-24",
+      "title": "水龙时装",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "C级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 148
+    },
+    {
+      "date": "2026-10-25",
+      "title": "噜咪档案 海精灵",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 257
+    },
+    {
+      "date": "2026-10-26",
+      "title": "通行证建筑",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 258
+    },
+    {
+      "date": "2026-10-27",
+      "title": "噜咪档案 螳螂虾",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 259
+    },
+    {
+      "date": "2026-10-28",
+      "title": "安妮莫联动预告",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 260
+    },
+    {
+      "date": "2026-10-28",
+      "title": "噜咪羊了个羊",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 129
+    },
+    {
+      "date": "2026-10-29",
+      "title": "万圣节活动预告",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 261
+    },
+    {
       "date": "2026-10-29",
       "title": "活动日历",
       "time": "",
@@ -3456,22 +3863,158 @@
       "order": 125
     },
     {
-      "date": "2026-10-31",
-      "title": "万圣节主题内容（待确认）",
+      "date": "2026-10-30",
+      "title": "噜咪档案 幽冥猎犬·异",
       "time": "",
       "platforms": [
-        "全平台"
+        "全平台通发"
       ],
       "regions": [
-        "全球"
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
       ],
       "types": [
-        "version"
+        "lumi"
       ],
-      "priority": "S级",
+      "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 54
+      "order": 262
+    },
+    {
+      "date": "2026-10-30",
+      "title": "噜咪档案 粉扇雀圣·异",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 263
+    },
+    {
+      "date": "2026-10-30",
+      "title": "噜咪档案 幽浮狗",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 264
+    },
+    {
+      "date": "2026-10-30",
+      "title": "社区活动",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 217
+    },
+    {
+      "date": "2026-10-31",
+      "title": "噜咪档案 瓜莱姆",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 265
+    },
+    {
+      "date": "2026-10-31",
+      "title": "噜咪档案 苹果蝠",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 266
+    },
+    {
+      "date": "2026-10-31",
+      "title": "噜咪档案 慢慢糖",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 267
     }
   ]
 }
