@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "09/05/2026 20:58:14",
+  "updatedAt": "09/09/2026 12:29:46",
   "posts": [
     {
       "date": "2026-08-17",
@@ -571,7 +571,25 @@
       "order": 92
     },
     {
-      "date": "2026-09-09",
+      "date": "2026-09-10",
+      "title": "代言人拍摄花絮视频&剧照",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "韩国"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 137
+    },
+    {
+      "date": "2026-09-10",
       "title": "噜咪档案 水母贝贝",
       "time": "",
       "platforms": [
@@ -591,24 +609,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 81
-    },
-    {
-      "date": "2026-09-10",
-      "title": "代言人拍摄花絮视频&剧照",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "韩国"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 137
     },
     {
       "date": "2026-09-10",
@@ -1089,28 +1089,6 @@
     },
     {
       "date": "2026-09-15",
-      "title": "噜咪设计档案 小火喵",
-      "time": "12:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 109
-    },
-    {
-      "date": "2026-09-15",
       "title": "赛季爬塔介绍",
       "time": "",
       "platforms": [
@@ -1152,6 +1130,28 @@
       "docLinks": {},
       "backlinks": {},
       "order": 162
+    },
+    {
+      "date": "2026-09-15",
+      "title": "噜咪设计档案 小火喵",
+      "time": "12:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 109
     },
     {
       "date": "2026-09-16",
@@ -1768,25 +1768,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 223
-    },
-    {
-      "date": "2026-09-20",
-      "title": "大逃杀 线下活动",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "台港澳"
-      ],
-      "types": [
-        "community",
-        "publishing"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 130
     },
     {
       "date": "2026-09-20",
@@ -3733,6 +3714,28 @@
       "docLinks": {},
       "backlinks": {},
       "order": 257
+    },
+    {
+      "date": "2026-10-26",
+      "title": "通行证建筑",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 258
     },
     {
       "date": "2026-10-26",
