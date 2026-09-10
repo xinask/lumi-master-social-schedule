@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "09/09/2026 12:29:46",
+  "updatedAt": "09/10/2026 23:04:24",
   "posts": [
     {
       "date": "2026-08-17",
@@ -590,28 +590,6 @@
     },
     {
       "date": "2026-09-10",
-      "title": "噜咪档案 水母贝贝",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 81
-    },
-    {
-      "date": "2026-09-10",
       "title": "噜咪日常",
       "time": "",
       "platforms": [
@@ -664,6 +642,27 @@
       "docLinks": {},
       "backlinks": {},
       "order": 156
+    },
+    {
+      "date": "2026-09-11",
+      "title": "噜咪档案 水母贝贝",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 81
     },
     {
       "date": "2026-09-12",
@@ -725,28 +724,6 @@
     },
     {
       "date": "2026-09-13",
-      "title": "噜咪档案 云朵毛毛",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 80
-    },
-    {
-      "date": "2026-09-13",
       "title": "SL停服公告",
       "time": "",
       "platforms": [
@@ -763,72 +740,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 103
-    },
-    {
-      "date": "2026-09-13",
-      "title": "养成资源介绍（树叶、星辉星冕）",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 105
-    },
-    {
-      "date": "2026-09-13",
-      "title": "噜咪档案 狮鹫宝宝",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 153
-    },
-    {
-      "date": "2026-09-13",
-      "title": "噜咪档案 黄风大圣",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 155
     },
     {
       "date": "2026-09-14",
@@ -872,8 +783,8 @@
     },
     {
       "date": "2026-09-14",
-      "title": "噜咪档案 练习鸡",
-      "time": "",
+      "title": "噜咪设计档案 小火喵",
+      "time": "17:00",
       "platforms": [
         "全平台通发"
       ],
@@ -890,51 +801,7 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 78
-    },
-    {
-      "date": "2026-09-14",
-      "title": "噜咪档案 筋肉狗",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 79
-    },
-    {
-      "date": "2026-09-14",
-      "title": "火龙时装",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 104
+      "order": 109
     },
     {
       "date": "2026-09-15",
@@ -1000,28 +867,6 @@
     },
     {
       "date": "2026-09-15",
-      "title": "骑士铠时装+罗盘+手套",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 167
-    },
-    {
-      "date": "2026-09-15",
       "title": "公测整体改动内容",
       "time": "",
       "platforms": [
@@ -1067,50 +912,6 @@
     },
     {
       "date": "2026-09-15",
-      "title": "草龙时装",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 106
-    },
-    {
-      "date": "2026-09-15",
-      "title": "赛季爬塔介绍",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 154
-    },
-    {
-      "date": "2026-09-15",
       "title": "噜咪档案 草龙",
       "time": "",
       "platforms": [
@@ -1130,28 +931,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 162
-    },
-    {
-      "date": "2026-09-15",
-      "title": "噜咪设计档案 小火喵",
-      "time": "12:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 109
     },
     {
       "date": "2026-09-16",
