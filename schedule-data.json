@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "09/12/2026 23:35:56",
+  "updatedAt": "09/14/2026 13:54:40",
   "posts": [
     {
       "date": "2026-08-17",
@@ -1007,13 +1007,17 @@
         "全平台通发"
       ],
       "regions": [
-        "欧美"
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
       ],
       "types": [
         "version",
         "lumi"
       ],
-      "priority": "A级",
+      "priority": "S级",
       "docLinks": {},
       "backlinks": {},
       "order": 284
@@ -1038,7 +1042,7 @@
     },
     {
       "date": "2026-09-19",
-      "title": "公测社区活动",
+      "title": "噜咪人气大赛",
       "time": "11:00",
       "platforms": [
         "X",
@@ -1056,7 +1060,7 @@
       "types": [
         "community"
       ],
-      "priority": "B级",
+      "priority": "S级",
       "docLinks": {},
       "backlinks": {},
       "order": 111
@@ -1590,28 +1594,6 @@
     },
     {
       "date": "2026-09-30",
-      "title": "IP漫画 打雪仗",
-      "time": "12:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 1
-    },
-    {
-      "date": "2026-09-30",
       "title": "集五福活动",
       "time": "10:00",
       "platforms": [
@@ -1631,6 +1613,28 @@
       "docLinks": {},
       "backlinks": {},
       "order": 2
+    },
+    {
+      "date": "2026-09-30",
+      "title": "IP漫画 打雪仗",
+      "time": "12:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 1
     },
     {
       "date": "2026-09-30",
