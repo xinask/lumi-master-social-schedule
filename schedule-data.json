@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "09/14/2026 13:54:40",
+  "updatedAt": "09/15/2026 23:11:15",
   "posts": [
     {
       "date": "2026-08-17",
@@ -868,8 +868,7 @@
         "欧美",
         "日本",
         "台港澳",
-        "韩国",
-        "俄罗斯"
+        "韩国"
       ],
       "types": [
         "version"
@@ -1063,7 +1062,7 @@
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 111
+      "order": 1
     },
     {
       "date": "2026-09-19",
@@ -1081,29 +1080,7 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 100
-    },
-    {
-      "date": "2026-09-19",
-      "title": "三方支付",
-      "time": "14:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 228
+      "order": 2
     },
     {
       "date": "2026-09-19",
@@ -1125,7 +1102,7 @@
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 133
+      "order": 3
     },
     {
       "date": "2026-09-20",
@@ -1365,6 +1342,28 @@
         "version"
       ],
       "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 1
+    },
+    {
+      "date": "2026-09-25",
+      "title": "三方支付",
+      "time": "14:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "S级",
       "docLinks": {},
       "backlinks": {},
       "order": 1
