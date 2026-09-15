@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "09/15/2026 23:11:15",
+  "updatedAt": "09/16/2026 02:26:42",
   "posts": [
     {
       "date": "2026-08-17",
@@ -1022,6 +1022,26 @@
       "order": 284
     },
     {
+      "date": "2026-09-17",
+      "title": "代言人TVC公开（Lounge评论活动）",
+      "time": "",
+      "platforms": [
+        "Instagram",
+        "X",
+        "Naver Lounge"
+      ],
+      "regions": [
+        "韩国"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 293
+    },
+    {
       "date": "2026-09-18",
       "title": "静默",
       "time": "",
@@ -1348,28 +1368,6 @@
     },
     {
       "date": "2026-09-25",
-      "title": "三方支付",
-      "time": "14:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 1
-    },
-    {
-      "date": "2026-09-25",
       "title": "蜜桃猫联动PV+正式联动KV做封面",
       "time": "11:00",
       "platforms": [
@@ -1414,6 +1412,28 @@
       "docLinks": {},
       "backlinks": {},
       "order": 3
+    },
+    {
+      "date": "2026-09-25",
+      "title": "三方支付",
+      "time": "14:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 1
     },
     {
       "date": "2026-09-26",
