@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "09/24/2026 16:19:49",
+  "updatedAt": "09/24/2026 16:42:04",
   "posts": [
     {
       "date": "2026-08-01",
@@ -1582,6 +1582,28 @@
       "order": 1
     },
     {
+      "date": "2026-09-28",
+      "title": "噜咪档案 草龙",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 335
+    },
+    {
       "date": "2026-09-29",
       "title": "公会战介绍",
       "time": "18:00",
@@ -1689,28 +1711,6 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 3
-    },
-    {
-      "date": "2026-10-03",
-      "title": "噜咪AI PV",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
       "order": 1
     },
     {
@@ -1756,6 +1756,28 @@
       "docLinks": {},
       "backlinks": {},
       "order": 1
+    },
+    {
+      "date": "2026-10-04",
+      "title": "噜咪AI PV",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 2
     },
     {
       "date": "2026-10-05",
