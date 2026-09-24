@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "09/23/2026 14:24:29",
+  "updatedAt": "09/24/2026 16:19:49",
   "posts": [
     {
       "date": "2026-08-01",
@@ -1344,7 +1344,7 @@
     {
       "date": "2026-09-23",
       "title": "噜咪档案 玄武视频",
-      "time": "18:00",
+      "time": "16:00",
       "platforms": [
         "全平台通发"
       ],
@@ -1362,6 +1362,50 @@
       "docLinks": {},
       "backlinks": {},
       "order": 2
+    },
+    {
+      "date": "2026-09-23",
+      "title": "中秋签到活动",
+      "time": "18:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 3
+    },
+    {
+      "date": "2026-09-23",
+      "title": "版本更新预告",
+      "time": "19:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 334
     },
     {
       "date": "2026-09-24",
@@ -1406,28 +1450,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 2
-    },
-    {
-      "date": "2026-09-24",
-      "title": "中秋签到活动",
-      "time": "12:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 333
     },
     {
       "date": "2026-09-25",
@@ -1513,28 +1535,6 @@
       "priority": "B级",
       "docLinks": {},
       "backlinks": {},
-      "order": 3
-    },
-    {
-      "date": "2026-09-26",
-      "title": "骑士铠AI PV",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
       "order": 1
     },
     {
@@ -1560,7 +1560,29 @@
       "order": 2
     },
     {
-      "date": "2026-09-28",
+      "date": "2026-09-27",
+      "title": "骑士铠AI PV",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 1
+    },
+    {
+      "date": "2026-09-29",
       "title": "公会战介绍",
       "time": "18:00",
       "platforms": [
@@ -1582,28 +1604,6 @@
       "order": 1
     },
     {
-      "date": "2026-09-29",
-      "title": "IP漫画 打雪仗",
-      "time": "17:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 309
-    },
-    {
       "date": "2026-09-30",
       "title": "集五福活动 开交流频道 交流帖",
       "time": "10:00",
@@ -1623,29 +1623,7 @@
       "priority": "B级",
       "docLinks": {},
       "backlinks": {},
-      "order": 2
-    },
-    {
-      "date": "2026-09-30",
-      "title": "礼包码",
-      "time": "17:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "community"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 310
+      "order": 1
     },
     {
       "date": "2026-10-01",
@@ -1690,6 +1668,28 @@
       "docLinks": {},
       "backlinks": {},
       "order": 198
+    },
+    {
+      "date": "2026-10-03",
+      "title": "礼包码",
+      "time": "17:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 3
     },
     {
       "date": "2026-10-03",
@@ -1802,28 +1802,6 @@
       "order": 2
     },
     {
-      "date": "2026-10-07",
-      "title": "礼包码",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "community"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 1
-    },
-    {
       "date": "2026-10-08",
       "title": "活动日历",
       "time": "",
@@ -1863,6 +1841,28 @@
         "lumi"
       ],
       "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 1
+    },
+    {
+      "date": "2026-10-10",
+      "title": "礼包码",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "A级",
       "docLinks": {},
       "backlinks": {},
       "order": 1
@@ -1932,28 +1932,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 241
-    },
-    {
-      "date": "2026-10-14",
-      "title": "发疯视频 偷偷",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "community"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 1
     },
     {
       "date": "2026-10-14",
