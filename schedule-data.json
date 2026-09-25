@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "09/24/2026 16:42:04",
+  "updatedAt": "09/25/2026 18:54:50",
   "posts": [
     {
       "date": "2026-08-01",
@@ -1517,30 +1517,8 @@
     },
     {
       "date": "2026-09-26",
-      "title": "礼包码",
-      "time": "16:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "community"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 1
-    },
-    {
-      "date": "2026-09-26",
       "title": "噜咪人气大赛周榜",
-      "time": "",
+      "time": "11:00",
       "platforms": [
         "全平台通发"
       ],
@@ -1560,9 +1538,31 @@
       "order": 2
     },
     {
+      "date": "2026-09-26",
+      "title": "礼包码",
+      "time": "16:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 3
+    },
+    {
       "date": "2026-09-27",
       "title": "骑士铠AI PV",
-      "time": "",
+      "time": "17:00",
       "platforms": [
         "全平台通发"
       ],
@@ -1711,7 +1711,7 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 1
+      "order": 3
     },
     {
       "date": "2026-10-03",
@@ -1734,6 +1734,28 @@
       "docLinks": {},
       "backlinks": {},
       "order": 2
+    },
+    {
+      "date": "2026-10-03",
+      "title": "冠军人选公布",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 336
     },
     {
       "date": "2026-10-04",
@@ -1777,7 +1799,7 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 2
+      "order": 1
     },
     {
       "date": "2026-10-05",
