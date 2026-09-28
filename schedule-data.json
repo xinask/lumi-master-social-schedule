@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "09/25/2026 18:54:50",
+  "updatedAt": "09/28/2026 12:09:44",
   "posts": [
     {
       "date": "2026-08-01",
@@ -1584,7 +1584,7 @@
     {
       "date": "2026-09-28",
       "title": "噜咪档案 草龙",
-      "time": "",
+      "time": "18:00",
       "platforms": [
         "全平台通发"
       ],
@@ -1601,7 +1601,29 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 335
+      "order": 1
+    },
+    {
+      "date": "2026-09-29",
+      "title": "三方支付",
+      "time": "12:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 338
     },
     {
       "date": "2026-09-29",
@@ -1671,6 +1693,28 @@
     },
     {
       "date": "2026-10-02",
+      "title": "礼包码",
+      "time": "16:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 2
+    },
+    {
+      "date": "2026-10-02",
       "title": "噜咪档案 火龙",
       "time": "",
       "platforms": [
@@ -1689,29 +1733,7 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 198
-    },
-    {
-      "date": "2026-10-03",
-      "title": "礼包码",
-      "time": "17:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "community"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 3
+      "order": 1
     },
     {
       "date": "2026-10-03",
@@ -1733,7 +1755,7 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 2
+      "order": 1
     },
     {
       "date": "2026-10-03",
@@ -1755,7 +1777,7 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 336
+      "order": 2
     },
     {
       "date": "2026-10-04",
@@ -1892,7 +1914,7 @@
     {
       "date": "2026-10-10",
       "title": "礼包码",
-      "time": "",
+      "time": "16:00",
       "platforms": [
         "全平台通发"
       ],
@@ -1906,7 +1928,7 @@
       "types": [
         "community"
       ],
-      "priority": "A级",
+      "priority": "B级",
       "docLinks": {},
       "backlinks": {},
       "order": 1
@@ -2023,50 +2045,6 @@
     },
     {
       "date": "2026-10-16",
-      "title": "大司马联动物料",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 1
-    },
-    {
-      "date": "2026-10-16",
-      "title": "大司马联动物料",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 1
-    },
-    {
-      "date": "2026-10-16",
       "title": "噜咪档案 耀光兔·异",
       "time": "",
       "platforms": [
@@ -2108,6 +2086,28 @@
       "docLinks": {},
       "backlinks": {},
       "order": 3
+    },
+    {
+      "date": "2026-10-17",
+      "title": "礼包码",
+      "time": "16:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 337
     },
     {
       "date": "2026-10-17",
