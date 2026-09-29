@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "09/28/2026 15:14:06",
+  "updatedAt": "09/29/2026 15:12:18",
   "posts": [
     {
       "date": "2026-08-01",
@@ -1584,7 +1584,7 @@
     {
       "date": "2026-09-29",
       "title": "三方支付",
-      "time": "12:00",
+      "time": "17:00",
       "platforms": [
         "全平台通发"
       ],
@@ -1627,28 +1627,6 @@
     },
     {
       "date": "2026-09-30",
-      "title": "集五福活动 开交流频道 交流帖",
-      "time": "10:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 1
-    },
-    {
-      "date": "2026-09-30",
       "title": "噜咪档案 森灵龙",
       "time": "18:00",
       "platforms": [
@@ -1668,6 +1646,28 @@
       "docLinks": {},
       "backlinks": {},
       "order": 2
+    },
+    {
+      "date": "2026-09-30",
+      "title": "集五福活动 开交流频道 交流帖",
+      "time": "19:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 1
     },
     {
       "date": "2026-10-01",
@@ -1802,7 +1802,7 @@
       "order": 1
     },
     {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "title": "噜咪AI PV",
       "time": "",
       "platforms": [
@@ -1822,50 +1822,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 1
-    },
-    {
-      "date": "2026-10-05",
-      "title": "噜咪档案 铃兰鹿",
-      "time": "17:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 1
-    },
-    {
-      "date": "2026-10-05",
-      "title": "噜咪档案 铃兰鹿图鉴+技能展示",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 2
     },
     {
       "date": "2026-10-08",
@@ -1891,28 +1847,6 @@
     },
     {
       "date": "2026-10-09",
-      "title": "噜咪档案 祥云鹿",
-      "time": "17:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 1
-    },
-    {
-      "date": "2026-10-10",
       "title": "礼包码",
       "time": "16:00",
       "platforms": [
@@ -1929,6 +1863,28 @@
         "community"
       ],
       "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 2
+    },
+    {
+      "date": "2026-10-09",
+      "title": "噜咪档案 祥云鹿",
+      "time": "17:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "S级",
       "docLinks": {},
       "backlinks": {},
       "order": 1
@@ -1978,8 +1934,30 @@
       "order": 241
     },
     {
-      "date": "2026-10-12",
-      "title": "噜咪档案 喵鲨",
+      "date": "2026-10-13",
+      "title": "噜咪档案 铃兰鹿",
+      "time": "17:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 1
+    },
+    {
+      "date": "2026-10-13",
+      "title": "噜咪档案 铃兰鹿图鉴+技能展示",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -1994,10 +1972,10 @@
       "types": [
         "lumi"
       ],
-      "priority": "B级",
+      "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 241
+      "order": 2
     },
     {
       "date": "2026-10-14",
