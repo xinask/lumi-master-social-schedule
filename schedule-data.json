@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "09/29/2026 15:12:18",
+  "updatedAt": "09/29/2026 21:48:28",
   "posts": [
     {
       "date": "2026-08-01",
@@ -1583,28 +1583,6 @@
     },
     {
       "date": "2026-09-29",
-      "title": "三方支付",
-      "time": "17:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 1
-    },
-    {
-      "date": "2026-09-29",
       "title": "公会战介绍",
       "time": "18:00",
       "platforms": [
@@ -1623,12 +1601,30 @@
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
+      "order": 1
+    },
+    {
+      "date": "2026-09-30",
+      "title": "寻宝总动员",
+      "time": "12:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "台港澳"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
       "order": 2
     },
     {
       "date": "2026-09-30",
       "title": "噜咪档案 森灵龙",
-      "time": "18:00",
+      "time": "14:00",
       "platforms": [
         "全平台通发"
       ],
@@ -1645,12 +1641,12 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 2
+      "order": 1
     },
     {
       "date": "2026-09-30",
-      "title": "集五福活动 开交流频道 交流帖",
-      "time": "19:00",
+      "title": "三方支付",
+      "time": "17:00",
       "platforms": [
         "全平台通发"
       ],
@@ -1662,24 +1658,62 @@
         "俄罗斯"
       ],
       "types": [
-        "version"
+        "publishing"
       ],
-      "priority": "B级",
+      "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 1
+      "order": 3
+    },
+    {
+      "date": "2026-09-30",
+      "title": "活动日历",
+      "time": "20:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "台港澳"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 4
     },
     {
       "date": "2026-10-01",
-      "title": "活动日历",
-      "time": "",
+      "title": "寻宝总动员",
+      "time": "12:00",
       "platforms": [
         "全平台通发"
       ],
       "regions": [
         "欧美",
         "日本",
-        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 340
+    },
+    {
+      "date": "2026-10-01",
+      "title": "活动日历",
+      "time": "17:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
         "韩国",
         "俄罗斯"
       ],
@@ -1694,7 +1728,7 @@
     {
       "date": "2026-10-02",
       "title": "礼包码",
-      "time": "16:00",
+      "time": "12:00",
       "platforms": [
         "全平台通发"
       ],
@@ -1716,7 +1750,7 @@
     {
       "date": "2026-10-02",
       "title": "噜咪档案 火龙",
-      "time": "",
+      "time": "17:00",
       "platforms": [
         "全平台通发"
       ],
@@ -1737,30 +1771,8 @@
     },
     {
       "date": "2026-10-03",
-      "title": "IP漫画 火龙许愿",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 1
-    },
-    {
-      "date": "2026-10-03",
       "title": "冠军人选公布",
-      "time": "",
+      "time": "11:00",
       "platforms": [
         "全平台通发"
       ],
@@ -1780,9 +1792,31 @@
       "order": 2
     },
     {
+      "date": "2026-10-03",
+      "title": "IP漫画 火龙许愿",
+      "time": "17:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 1
+    },
+    {
       "date": "2026-10-04",
       "title": "种地活动介绍",
-      "time": "",
+      "time": "17:00",
       "platforms": [
         "全平台通发"
       ],
@@ -1802,31 +1836,9 @@
       "order": 1
     },
     {
-      "date": "2026-10-05",
-      "title": "噜咪AI PV",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 1
-    },
-    {
       "date": "2026-10-08",
       "title": "活动日历",
-      "time": "",
+      "time": "17:00",
       "platforms": [
         "全平台通发"
       ],
@@ -1848,7 +1860,7 @@
     {
       "date": "2026-10-09",
       "title": "礼包码",
-      "time": "16:00",
+      "time": "12:00",
       "platforms": [
         "全平台通发"
       ],
@@ -1892,7 +1904,7 @@
     {
       "date": "2026-10-11",
       "title": "噜咪讨伐玩法介绍",
-      "time": "",
+      "time": "17:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2023,6 +2035,28 @@
     },
     {
       "date": "2026-10-16",
+      "title": "礼包码",
+      "time": "12:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 2
+    },
+    {
+      "date": "2026-10-16",
       "title": "噜咪档案 耀光兔·异",
       "time": "",
       "platforms": [
@@ -2041,7 +2075,7 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 2
+      "order": 1
     },
     {
       "date": "2026-10-16",
@@ -2064,28 +2098,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 3
-    },
-    {
-      "date": "2026-10-17",
-      "title": "礼包码",
-      "time": "16:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "community"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 337
     },
     {
       "date": "2026-10-17",
@@ -2173,7 +2185,7 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 3
+      "order": 4
     },
     {
       "date": "2026-10-18",
@@ -2353,8 +2365,8 @@
     },
     {
       "date": "2026-10-23",
-      "title": "社区活动",
-      "time": "",
+      "title": "礼包码",
+      "time": "12:00",
       "platforms": [
         "全平台通发"
       ],
