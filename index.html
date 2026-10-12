@@ -167,7 +167,7 @@
     document.querySelectorAll('.calendar-fold-row.september-range-fold button').forEach(button=>{const text=expanded?'收起9月1日—26日排期':'展开9月1日—26日排期';button.dataset.cnText=text;if(button.textContent!==text)button.textContent=text;button.setAttribute('aria-expanded',String(expanded))});
   };
   const calendar=document.querySelector('#calendar');if(!calendar)return;
-  applySeptemberFold();new MutationObserver(applySeptemberFold).observe(calendar,{childList:true,subtree:true});
+  applySeptemberFold();new MutationObserver(applySeptemberFold).observe(calendar,{childList:true});
 })();
 </script>
 <script>
@@ -186,10 +186,10 @@
     if(!row){row=document.createElement('div');row.className='calendar-fold-row late-september-range-fold';row.innerHTML=`<span><strong>${label}</strong></span><button type="button"></button>`;days[0].before(row)}
     const button=row.querySelector('button'),expanded=localStorage.getItem('lumi-public-late-september-october-expanded')==='1';
     days.forEach(day=>{day.classList.add('late-september-range-hidden');day.classList.toggle('is-folded',!expanded)});
-    button.textContent=expanded?collapseLabel:expandLabel;button.setAttribute('aria-expanded',String(expanded));
+    const buttonText=expanded?collapseLabel:expandLabel;if(button.textContent!==buttonText)button.textContent=buttonText;button.dataset.cnText=buttonText;button.setAttribute('aria-expanded',String(expanded));
     button.onclick=()=>{localStorage.setItem('lumi-public-late-september-october-expanded',button.getAttribute('aria-expanded')==='true'?'0':'1');apply()};
   };
-  apply();new MutationObserver(apply).observe(calendar,{childList:true,subtree:true});
+  apply();new MutationObserver(apply).observe(calendar,{childList:true});
 })();
 </script>
 </html>
