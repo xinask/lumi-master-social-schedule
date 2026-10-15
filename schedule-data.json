@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "10/12/2026 19:44:19",
+  "updatedAt": "10/15/2026 16:48:30",
   "posts": [
     {
       "date": "2026-08-01",
@@ -2050,6 +2050,28 @@
       "docLinks": {},
       "backlinks": {},
       "order": 1
+    },
+    {
+      "date": "2026-10-16",
+      "title": "策划面对面",
+      "time": "17:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 348
     },
     {
       "date": "2026-10-17",
