@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "10/19/2026 15:31:50",
+  "updatedAt": "10/19/2026 16:33:57",
   "posts": [
     {
       "date": "2026-08-01",
@@ -2361,32 +2361,25 @@
     },
     {
       "date": "2026-10-26",
-      "title": "社区找不同",
-      "time": "12:00",
+      "title": "日本LINE小游戏版本上线 社媒宣传BANNER",
+      "time": "",
       "platforms": [
-        "X",
-        "Discord",
-        "Naver Lounge",
-        "VK"
+        "全平台通发"
       ],
       "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
+        "日本"
       ],
       "types": [
-        "community"
+        "publishing"
       ],
-      "priority": "B级",
+      "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 1
+      "order": 4
     },
     {
       "date": "2026-10-26",
-      "title": "日本LINE小游戏版本上线 社媒宣传BANNER",
+      "title": "IP漫画 水龙",
       "time": "",
       "platforms": [
         "全平台通发"
@@ -2399,12 +2392,12 @@
         "俄罗斯"
       ],
       "types": [
-        "publishing"
+        "lumi"
       ],
-      "priority": "S级",
+      "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 4
+      "order": 354
     },
     {
       "date": "2026-10-27",
