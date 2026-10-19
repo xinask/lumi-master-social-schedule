@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "10/15/2026 16:48:30",
+  "updatedAt": "10/19/2026 15:31:50",
   "posts": [
     {
       "date": "2026-08-01",
@@ -2118,52 +2118,9 @@
       "order": 343
     },
     {
-      "date": "2026-10-19",
-      "title": "西瓜汁视频",
-      "time": "12:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "community"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 344
-    },
-    {
-      "date": "2026-10-21",
-      "title": "青龙悬念预告",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 248
-    },
-    {
-      "date": "2026-10-22",
-      "title": "万圣节活动预热",
-      "time": "12:00",
+      "date": "2026-10-18",
+      "title": "版本更新",
+      "time": "18:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2180,11 +2137,11 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 1
+      "order": 352
     },
     {
-      "date": "2026-10-22",
-      "title": "活动日历",
+      "date": "2026-10-19",
+      "title": "版更补充说明",
       "time": "17:00",
       "platforms": [
         "全平台通发"
@@ -2202,12 +2159,78 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 3
+      "order": 351
     },
     {
-      "date": "2026-10-22",
+      "date": "2026-10-20",
+      "title": "青龙悬念预告",
+      "time": "12:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 1
+    },
+    {
+      "date": "2026-10-20",
+      "title": "噜咪档案 大司马",
+      "time": "17:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 2
+    },
+    {
+      "date": "2026-10-21",
       "title": "噜咪档案 青龙 全景卡",
-      "time": "",
+      "time": "12:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 1
+    },
+    {
+      "date": "2026-10-21",
+      "title": "噜咪档案 青龙技能展示+建筑",
+      "time": "17:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2225,6 +2248,50 @@
       "docLinks": {},
       "backlinks": {},
       "order": 2
+    },
+    {
+      "date": "2026-10-22",
+      "title": "噜咪档案肌肉金轮",
+      "time": "12:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 3
+    },
+    {
+      "date": "2026-10-22",
+      "title": "二期通行证+万圣节活动预热+活动日历",
+      "time": "17:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 353
     },
     {
       "date": "2026-10-23",
@@ -2247,28 +2314,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 1
-    },
-    {
-      "date": "2026-10-23",
-      "title": "噜咪档案 青龙技能展示+建筑",
-      "time": "17:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 346
     },
     {
       "date": "2026-10-24",
@@ -2360,28 +2405,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 4
-    },
-    {
-      "date": "2026-10-27",
-      "title": "噜咪档案 螳螂虾",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 2
     },
     {
       "date": "2026-10-27",
@@ -2517,28 +2540,6 @@
     },
     {
       "date": "2026-10-30",
-      "title": "噜咪档案 粉扇雀圣·异",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 263
-    },
-    {
-      "date": "2026-10-30",
       "title": "噜咪档案 幽浮狗",
       "time": "",
       "platforms": [
@@ -2558,72 +2559,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 264
-    },
-    {
-      "date": "2026-10-31",
-      "title": "噜咪档案 瓜莱姆",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 265
-    },
-    {
-      "date": "2026-10-31",
-      "title": "噜咪档案 苹果蝠",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 266
-    },
-    {
-      "date": "2026-10-31",
-      "title": "噜咪档案 慢慢糖",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 267
     }
   ]
 }
