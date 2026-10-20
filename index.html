@@ -101,9 +101,66 @@
     const REGION_FLAGS={'欧美':['1f1fa-1f1f8'],'日本':['1f1ef-1f1f5'],'韩国':['1f1f0-1f1f7'],'俄罗斯':['1f1f7-1f1fa']};
     function regionMarkup(regions){return `<div class="post-regions">${(regions||[]).map(name=>REGION_FLAGS[name]?REGION_FLAGS[name].map(code=>`<img class="post-flag" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/${code}.svg" alt="${esc(name)}" loading="lazy">`).join(''):`<span class="post-region-text">${esc(name)}</span>`).join('')}</div>`}
     function postButton(p){return `<button class="post ${esc(p.types[0]||'version')}" type="button" data-post="${p.publicId}"><b>${esc(p.title)}</b><small>${esc(p.platforms.join(' / '))} · ${esc((p.types||[]).map(x=>TYPE_NAMES[x]||x).join(' / '))}</small>${regionMarkup(p.regions)}${p.time?`<time>${esc(p.time)}</time>`:''}</button>`}
-    function renderCalendar(posts){const byDate=Object.groupBy?Object.groupBy(posts,p=>p.date):posts.reduce((a,p)=>((a[p.date]??=[]).push(p),a),{});let html='';for(let month=8;month<=12;month++){const key=`2026-${String(month).padStart(2,'0')}`;if($('monthFilter').value!=='all'&&$('monthFilter').value!==key)continue;const first=new Date(Date.UTC(2026,month-1,1)).getUTCDay();html+=`<div class="month-label">2026年${month}月</div>`;if(month===8)html+='<div class="calendar-fold-row"><span><strong>8月1日—31日</strong>的历史排期已折叠</span><button type="button" class="public-aug-toggle" aria-expanded="false">展开8月排期</button></div>';if(month===9)html+='<div class="calendar-fold-row september-range-fold"><span><strong>9月1日—19日</strong>的排期已折叠</span><button type="button" class="public-september-toggle" aria-expanded="false">展开9月1日—19日排期</button></div>';html+=['日','一','二','三','四','五','六'].map(x=>`<div class="weekday${month===8?' pre-september is-folded':''}">周${x}</div>`).join('');const total=new Date(Date.UTC(2026,month,0)).getUTCDate();for(let i=0;i<first;i++)html+=`<div class="day blank${month===8?' pre-september is-folded':''}${month===9?' september-range-hidden':''}"></div>`;for(let day=1;day<=total;day++){const date=`${key}-${String(day).padStart(2,'0')}`,weekday=['周日','周一','周二','周三','周四','周五','周六'][new Date(`${date}T00:00:00Z`).getUTCDay()],today=false,rangeClass=month===9&&day<=19?' september-range-hidden':'';html+=`<div class="day${today?' today':''}${month===8?' pre-september is-folded':''}${rangeClass}"><div class="day-head"><span>${weekday}</span><span>${month}/${day}</span></div>${(byDate[date]||[]).sort((a,b)=>(a.time||'99:99').localeCompare(b.time||'99:99')||a.order-b.order).map(postButton).join('')}</div>`}}$('calendar').innerHTML=html||'<div class="empty">没有符合条件的排期</div>'}
+    function renderCalendar(posts){
+      if(!document.getElementById('calendarMonthFoldStyle')){
+        const style=document.createElement('style');
+        style.id='calendarMonthFoldStyle';
+        style.textContent='.calendar-month-hidden.is-folded{display:none!important}';
+        document.head.appendChild(style);
+      }
+      const byDate=Object.groupBy?Object.groupBy(posts,p=>p.date):posts.reduce((a,p)=>((a[p.date]??=[]).push(p),a),{});
+      let html='';
+      for(let month=8;month<=12;month++){
+        const key=`2026-${String(month).padStart(2,'0')}`;
+        if($('monthFilter').value!=='all'&&$('monthFilter').value!==key)continue;
+        const first=new Date(Date.UTC(2026,month-1,1)).getUTCDay();
+        const foldable=month===8||month===9;
+        const expanded=foldable&&localStorage.getItem(month===8?'lumi-public-aug-expanded':'lumi-public-september-month-expanded')==='1';
+        const hiddenClass=foldable?' calendar-month-hidden'+(expanded?'':' is-folded'):'';
+        const title=month===8?'8月1日—31日的排期已折叠':'9月1日—30日的排期已折叠';
+        const expand=month===8?'展开8月排期':'展开9月排期';
+        const collapse=month===8?'收起8月排期':'收起9月排期';
+        html+=`<div class="month-label">2026年${month}月</div>`;
+        if(foldable)html+=`<div class="calendar-fold-row"><span data-cn-text="${title}"><strong>${title.slice(0,title.indexOf('的'))}</strong>${title.slice(title.indexOf('的'))}</span><button type="button" class="public-month-toggle" data-month="${month}" aria-expanded="${expanded}">${expanded?collapse:expand}</button></div>`;
+        html+=['日','一','二','三','四','五','六'].map(x=>`<div class="weekday${hiddenClass}">周${x}</div>`).join('');
+        const total=new Date(Date.UTC(2026,month,0)).getUTCDate();
+        for(let i=0;i<first;i++)html+=`<div class="day blank${hiddenClass}"></div>`;
+        for(let day=1;day<=total;day++){
+          const date=`${key}-${String(day).padStart(2,'0')}`;
+          const weekday=['周日','周一','周二','周三','周四','周五','周六'][new Date(`${date}T00:00:00Z`).getUTCDay()];
+          html+=`<div class="day${hiddenClass}"><div class="day-head"><span>${weekday}</span><span>${month}/${day}</span></div>${(byDate[date]||[]).sort((a,b)=>(a.time||'99:99').localeCompare(b.time||'99:99')||a.order-b.order).map(postButton).join('')}</div>`;
+        }
+      }
+      $('calendar').innerHTML=html||'<div class="empty">没有符合条件的排期</div>';
+    }
     function renderList(posts){$('list').innerHTML=posts.length?posts.slice().sort((a,b)=>a.date.localeCompare(b.date)||(a.time||'99:99').localeCompare(b.time||'99:99')).map(p=>`<article class="list-row" data-post="${p.publicId}" tabindex="0" role="button"><b>${esc(p.date.slice(5))}</b><span>${esc(p.time||'待定')}</span><b>${esc(p.title)}</b><span>${esc(p.platforms.join(' / '))}</span><span>${esc(p.regions.join(' / '))}</span><span class="priority">${esc(p.priority)}</span></article>`).join(''):'<div class="empty">没有符合条件的排期</div>'}
-    function render(){const posts=filtered();renderCalendar(posts);renderList(posts);const augToggle=document.querySelector('.public-aug-toggle');if(augToggle){const expanded=localStorage.getItem('lumi-public-aug-expanded')==='1';const apply=state=>{document.querySelectorAll('.pre-september').forEach(el=>el.classList.toggle('is-folded',!state));augToggle.textContent=state?'收起8月排期':'展开8月排期';augToggle.setAttribute('aria-expanded',String(state));};apply(expanded);augToggle.onclick=()=>{const next=augToggle.getAttribute('aria-expanded')!=='true';localStorage.setItem('lumi-public-aug-expanded',next?'1':'0');apply(next)}}const sepToggle=document.querySelector('.public-september-toggle');if(sepToggle){const expanded=localStorage.getItem('lumi-public-september-expanded')==='1';const apply=state=>{document.querySelectorAll('.september-range-hidden').forEach(el=>el.classList.toggle('is-folded',!state));sepToggle.textContent=state?'收起9月1日—19日排期':'展开9月1日—19日排期';sepToggle.setAttribute('aria-expanded',String(state));};apply(expanded);sepToggle.onclick=()=>{const next=sepToggle.getAttribute('aria-expanded')!=='true';localStorage.setItem('lumi-public-september-expanded',next?'1':'0');apply(next)}}document.querySelectorAll('[data-post]').forEach(el=>{el.addEventListener('click',()=>openPost(Number(el.dataset.post)));el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openPost(Number(el.dataset.post))}})})}
+    function render(){
+      const posts=filtered();
+      renderCalendar(posts);
+      renderList(posts);
+      document.querySelectorAll('.public-month-toggle').forEach(button=>{
+        button.onclick=()=>{
+          const month=Number(button.dataset.month);
+          const expanded=button.getAttribute('aria-expanded')!=='true';
+          const key=month===8?'lumi-public-aug-expanded':'lumi-public-september-month-expanded';
+          localStorage.setItem(key,expanded?'1':'0');
+          button.setAttribute('aria-expanded',String(expanded));
+          const text=expanded?`收起${month}月排期`:`展开${month}月排期`;
+          button.dataset.cnText=text;
+          button.textContent=text;
+          const heading=[...document.querySelectorAll('.month-label')].find(el=>el.textContent.includes(`2026年${month}月`));
+          let node=heading?.nextElementSibling;
+          while(node&&!node.classList.contains('month-label')){
+            if(node!==button.parentElement&&node.classList.contains('calendar-month-hidden'))node.classList.toggle('is-folded',!expanded);
+            node=node.nextElementSibling;
+          }
+        };
+      });
+      document.querySelectorAll('[data-post]').forEach(el=>{
+        el.addEventListener('click',()=>openPost(Number(el.dataset.post)));
+        el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openPost(Number(el.dataset.post))}});
+      });
+    }
     function linksHtml(title,links){const rows=[];Object.entries(links||{}).forEach(([group,value])=>{if(typeof value==='string'&&safeUrl(value))rows.push([group,value]);else if(value&&typeof value==='object')Object.entries(value).forEach(([sub,url])=>{if(safeUrl(url))rows.push([`${group} · ${sub}`,url])})});return `<section class="link-section"><h4>${title}</h4>${rows.length?`<div class="link-group">${rows.map(([label,url])=>`<a class="data-link" href="${esc(safeUrl(url))}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`).join('')}</div>`:'<span class="no-links">暂未配置</span>'}</section>`}
     function openPost(id){const p=allPosts.find(x=>x.publicId===id);if(!p)return;$('dialogTitle').textContent=p.title;$('dialogDate').textContent=`${dateText(p.date)}${p.time?` · ${p.time}`:''}`;$('dialogBody').innerHTML=`<div class="detail-grid"><div class="detail"><label>平台</label><strong>${esc(p.platforms.join(' / ')||'待定')}</strong></div><div class="detail"><label>地区</label><strong>${esc(p.regions.join(' / ')||'待定')}</strong></div><div class="detail"><label>内容分类</label><strong>${esc(p.types.map(x=>TYPE_NAMES[x]||x).join(' / '))}</strong></div><div class="detail"><label>优先级</label><strong>${esc(p.priority||'待定')}</strong></div></div>${linksHtml('文档链接',p.docLinks)}${linksHtml('反链链接',p.backlinks)}`;$('postDialog').showModal()}
     function setupFilters(){const regions=[...new Set(allPosts.flatMap(p=>p.regions))].sort(),platforms=[...new Set(allPosts.flatMap(p=>p.platforms))].sort();$('regionFilter').insertAdjacentHTML('beforeend',regions.map(x=>`<option>${esc(x)}</option>`).join(''));$('platformFilter').insertAdjacentHTML('beforeend',platforms.map(x=>`<option>${esc(x)}</option>`).join(''));['monthFilter','regionFilter','platformFilter','searchFilter'].forEach(id=>$(id).addEventListener(id==='searchFilter'?'input':'change',render));document.querySelectorAll('.view-btn').forEach(btn=>btn.onclick=()=>{view=btn.dataset.view;document.querySelectorAll('.view-btn').forEach(x=>x.classList.toggle('active',x===btn));$('calendar').style.display=view==='calendar'?'grid':'none';$('list').classList.toggle('open',view==='list')})}
@@ -124,7 +181,12 @@
    const uiMap={'公开只读版':'공개 읽기 전용','海外社媒内容排期':'해외 소셜 콘텐츠 캘린더','供合作伙伴查看的最新排期，仅支持浏览与打开已配置链接。':'파트너 확인용 최신 캘린더입니다. 열람 및 설정된 링크만 이용할 수 있습니다.','排期内容':'캘린더 콘텐츠','当前展示范围':'현재 표시 범위','覆盖地区':'대상 지역','已配置地区':'설정된 지역','覆盖平台':'대상 플랫폼','已配置平台':'설정된 플랫폼','S级内容':'S급 콘텐츠','重点节点':'주요 일정','地区社媒阵地':'지역별 소셜 채널','点击按钮跳转至官方账号':'버튼을 눌러 공식 계정으로 이동','筛选':'필터','全部月份':'전체 월','全部地区':'전체 지역','全部平台':'전체 플랫폼','搜索贴文标题':'게시물 제목 검색','日历':'캘린더','列表':'목록','版本/活动':'버전/이벤트','噜咪/角色':'루미/캐릭터','社区/UGC':'커뮤니티/UGC','发行/转化':'출시/전환','文档链接':'문서 링크','反链链接':'게시 링크','暂未配置':'아직 설정되지 않음','关闭':'닫기','待定':'미정','素材尺寸参考':'소재 규격 참고','X发帖预览':'X 게시물 미리보기','常用工具':'바로가기','9月1日—19日的排期已折叠':'9월 1일~19일 일정은 접혀 있습니다','展开9月1日—19日排期':'9월 1일~19일 일정 펼치기','收起9月1日—19日排期':'9월 1일~19일 일정 접기'};
   uiMap['9月1日—26日的排期已折叠']='9월 1일~26일 일정은 접혀 있습니다';uiMap['展开9月1日—26日排期']='9월 1일~26일 일정 펼치기';uiMap['收起9月1日—26日排期']='9월 1일~26일 일정 접기';
   uiMap['9月27日—10月3日的排期已折叠']='9월 27일~10월 3일 일정은 접혀 있습니다';uiMap['展开9月27日—10月3日排期']='9월 27일~10월 3일 일정 펼치기';uiMap['收起9月27日—10月3日排期']='9월 27일~10월 3일 일정 접기';
-  uiMap['10月4日—10月10日的排期已折叠']='10월 4일~10월 10일 일정은 접혀 있습니다';uiMap['展开10月4日—10月10日排期']='10월 4일~10월 10일 일정 펼치기';uiMap['收起10月4日—10月10日排期']='10월 4일~10월 10일 일정 접기';
+  uiMap['8月1日—31日的排期已折叠']='8월 1일~31일 일정은 접혀 있습니다';
+  uiMap['9月1日—30日的排期已折叠']='9월 1일~30일 일정은 접혀 있습니다';
+  uiMap['展开8月排期']='8월 일정 펼치기';
+  uiMap['收起8月排期']='8월 일정 접기';
+  uiMap['展开9月排期']='9월 일정 펼치기';
+  uiMap['收起9月排期']='9월 일정 접기';
   const regionMap={'欧美':'서구권','日本':'일본','台港澳':'대만·홍콩·마카오','韩国':'한국','俄罗斯':'러시아','全球':'글로벌'};
   const platformMap={'全平台通发':'전체 채널','全平台':'전체 채널','Facebook':'Facebook','Instagram':'Instagram','Discord':'Discord','X':'X','TikTok':'TikTok','YouTube':'YouTube','Naver Lounge':'Naver Lounge','VK':'VK','Telegram':'Telegram','IG / X':'IG / X','FB / Discord':'FB / Discord'};
   const weekdayMap={'周日':'일요일','周一':'월요일','周二':'화요일','周三':'수요일','周四':'목요일','周五':'금요일','周六':'토요일'};
@@ -155,59 +217,5 @@
   translate();
 })();
 </script>
-<script>
-(()=>{
-  const applySeptemberFold=()=>{
-    const expanded=localStorage.getItem('lumi-public-september-expanded')==='1';
-    document.querySelectorAll('.day').forEach(day=>{
-      const label=day.querySelector('.day-head span:last-child')?.textContent.trim()||'';
-      const match=label.match(/^9\/(\d{1,2})$/);if(!match||Number(match[1])>26)return;
-      day.classList.add('september-range-hidden');day.classList.toggle('is-folded',!expanded);
-    });
-    document.querySelectorAll('.calendar-fold-row.september-range-fold span').forEach(el=>{el.dataset.cnText='9月1日—26日的排期已折叠';if(!el.textContent.includes('9月1日—26日'))el.innerHTML='<strong>9月1日—26日</strong>的排期已折叠'});
-    document.querySelectorAll('.calendar-fold-row.september-range-fold button').forEach(button=>{const text=expanded?'收起9月1日—26日排期':'展开9月1日—26日排期';button.dataset.cnText=text;if(button.textContent!==text)button.textContent=text;button.setAttribute('aria-expanded',String(expanded))});
-  };
-  const calendar=document.querySelector('#calendar');if(!calendar)return;
-  applySeptemberFold();new MutationObserver(applySeptemberFold).observe(calendar,{childList:true});
-})();
-</script>
-<script>
-(()=>{
-  const calendar=document.querySelector('#calendar');if(!calendar)return;
-  const targets=new Set(['9/27','9/28','9/29','9/30','10/1','10/2','10/3']);
-  const label='9月27日—10月3日的排期已折叠',expandLabel='展开9月27日—10月3日排期',collapseLabel='收起9月27日—10月3日排期';
-  const apply=()=>{
-    const days=[...calendar.querySelectorAll('.day')].filter(day=>targets.has(day.querySelector('.day-head span:last-child')?.textContent.trim()||''));
-    const octoberFirst=[...calendar.querySelectorAll('.day')].find(day=>day.querySelector('.day-head span:last-child')?.textContent.trim()==='10/1'),padNodes=[];
-    let previous=octoberFirst?.previousElementSibling;
-    while(previous?.classList.contains('day')&&previous.classList.contains('blank')){padNodes.unshift(previous);previous=previous.previousElementSibling;}
-    days.push(...padNodes);
-    if(!days.length)return;
-    let row=calendar.querySelector('.calendar-fold-row.late-september-range-fold');
-    if(!row){row=document.createElement('div');row.className='calendar-fold-row late-september-range-fold';row.innerHTML=`<span><strong>${label}</strong></span><button type="button"></button>`;days[0].before(row)}
-    const button=row.querySelector('button'),expanded=localStorage.getItem('lumi-public-late-september-october-expanded')==='1';
-    days.forEach(day=>{day.classList.add('late-september-range-hidden');day.classList.toggle('is-folded',!expanded)});
-    const buttonText=expanded?collapseLabel:expandLabel;if(button.textContent!==buttonText)button.textContent=buttonText;button.dataset.cnText=buttonText;button.setAttribute('aria-expanded',String(expanded));
-    button.onclick=()=>{localStorage.setItem('lumi-public-late-september-october-expanded',button.getAttribute('aria-expanded')==='true'?'0':'1');apply()};
-  };
-  apply();new MutationObserver(apply).observe(calendar,{childList:true});
-})();
-</script>
-<script>
-(()=>{
-  const calendar=document.querySelector('#calendar');if(!calendar)return;
-  const targets=new Set(['10/4','10/5','10/6','10/7','10/8','10/9','10/10']);
-  const label='10月4日—10月10日的排期已折叠',expandLabel='展开10月4日—10月10日排期',collapseLabel='收起10月4日—10月10日排期';
-  const apply=()=>{
-    const days=[...calendar.querySelectorAll('.day')].filter(day=>targets.has(day.querySelector('.day-head span:last-child')?.textContent.trim()||''));if(days.length!==7)return;
-    let row=calendar.querySelector('.calendar-fold-row.october-first-week-fold');
-    if(!row){row=document.createElement('div');row.className='calendar-fold-row october-first-week-fold';row.innerHTML=`<span><strong>${label}</strong></span><button type="button"></button>`;days[0].before(row)}
-    const button=row.querySelector('button'),expanded=localStorage.getItem('lumi-public-october-first-week-expanded')==='1';
-    days.forEach(day=>{day.classList.add('october-first-week-hidden');day.classList.toggle('is-folded',!expanded)});
-    const buttonText=expanded?collapseLabel:expandLabel;if(button.textContent!==buttonText)button.textContent=buttonText;button.dataset.cnText=buttonText;button.setAttribute('aria-expanded',String(expanded));
-    button.onclick=()=>{localStorage.setItem('lumi-public-october-first-week-expanded',button.getAttribute('aria-expanded')==='true'?'0':'1');apply()};
-  };
-  apply();new MutationObserver(apply).observe(calendar,{childList:true});
-})();
-</script>
+
 </html>

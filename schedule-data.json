@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "10/20/2026 14:57:23",
+  "updatedAt": "10/20/2026 14:59:53",
   "posts": [
     {
       "date": "2026-08-01",
@@ -2162,6 +2162,24 @@
       "order": 351
     },
     {
+      "date": "2026-10-19",
+      "title": "玩家访谈",
+      "time": "20:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "台港澳"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 366
+    },
+    {
       "date": "2026-10-20",
       "title": "噜咪档案 大司马",
       "time": "14:00",
@@ -2274,7 +2292,7 @@
     {
       "date": "2026-10-23",
       "title": "礼包码",
-      "time": "12:00",
+      "time": "17:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2292,6 +2310,49 @@
       "docLinks": {},
       "backlinks": {},
       "order": 1
+    },
+    {
+      "date": "2026-10-23",
+      "title": "创作者激励计划二宣",
+      "time": "12:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 367
+    },
+    {
+      "date": "2026-10-24",
+      "title": "玩家访谈",
+      "time": "12:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 2
     },
     {
       "date": "2026-10-24",
@@ -2313,7 +2374,7 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 355
+      "order": 1
     },
     {
       "date": "2026-10-25",
