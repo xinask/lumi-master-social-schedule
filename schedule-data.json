@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "10/19/2026 16:33:57",
+  "updatedAt": "10/20/2026 11:29:33",
   "posts": [
     {
       "date": "2026-08-01",
@@ -2163,30 +2163,8 @@
     },
     {
       "date": "2026-10-20",
-      "title": "青龙悬念预告",
-      "time": "12:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 1
-    },
-    {
-      "date": "2026-10-20",
       "title": "噜咪档案 大司马",
-      "time": "17:00",
+      "time": "14:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2204,6 +2182,28 @@
       "docLinks": {},
       "backlinks": {},
       "order": 2
+    },
+    {
+      "date": "2026-10-20",
+      "title": "青龙悬念预告",
+      "time": "17:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 1
     },
     {
       "date": "2026-10-21",
@@ -2229,6 +2229,28 @@
     },
     {
       "date": "2026-10-21",
+      "title": "噜咪档案肌肉金轮",
+      "time": "17:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 2
+    },
+    {
+      "date": "2026-10-22",
       "title": "噜咪档案 青龙技能展示+建筑",
       "time": "17:00",
       "platforms": [
@@ -2247,29 +2269,7 @@
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 2
-    },
-    {
-      "date": "2026-10-22",
-      "title": "噜咪档案肌肉金轮",
-      "time": "12:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 3
+      "order": 1
     },
     {
       "date": "2026-10-22",
@@ -2291,7 +2291,7 @@
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 353
+      "order": 2
     },
     {
       "date": "2026-10-23",
