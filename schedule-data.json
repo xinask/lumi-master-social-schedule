@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "10/20/2026 11:29:33",
+  "updatedAt": "10/20/2026 14:57:23",
   "posts": [
     {
       "date": "2026-08-01",
@@ -2228,28 +2228,6 @@
       "order": 1
     },
     {
-      "date": "2026-10-21",
-      "title": "噜咪档案肌肉金轮",
-      "time": "17:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 2
-    },
-    {
       "date": "2026-10-22",
       "title": "噜咪档案 青龙技能展示+建筑",
       "time": "17:00",
@@ -2317,8 +2295,8 @@
     },
     {
       "date": "2026-10-24",
-      "title": "噜咪档案 水龙",
-      "time": "",
+      "title": "噜咪档案 海浪龙",
+      "time": "17:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2335,7 +2313,7 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 254
+      "order": 355
     },
     {
       "date": "2026-10-25",
@@ -2357,7 +2335,29 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 345
+      "order": 1
+    },
+    {
+      "date": "2026-10-25",
+      "title": "噜咪档案肌肉金轮",
+      "time": "17:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 2
     },
     {
       "date": "2026-10-26",
@@ -2401,8 +2401,8 @@
     },
     {
       "date": "2026-10-27",
-      "title": "铃兰鹿全景视频",
-      "time": "",
+      "title": "策划面对面+提醒蜜桃猫即将结束+明日公会战+捣蛋节安妮莫预热",
+      "time": "17:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2414,17 +2414,39 @@
         "俄罗斯"
       ],
       "types": [
-        "lumi"
+        "version"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 356
+    },
+    {
+      "date": "2026-10-28",
+      "title": "捣蛋节KV+版本活动介绍",
+      "time": "12:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
       ],
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 3
+      "order": 1
     },
     {
-      "date": "2026-10-28",
-      "title": "安妮莫联动预告",
-      "time": "",
+      "date": "2026-10-29",
+      "title": "安妮莫联动公告",
+      "time": "12:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2441,34 +2463,12 @@
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 260
+      "order": 363
     },
     {
       "date": "2026-10-29",
-      "title": "活动日历",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 125
-    },
-    {
-      "date": "2026-10-29",
-      "title": "万圣节活动预告",
-      "time": "",
+      "title": "活动日历+捣蛋节预热",
+      "time": "17:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2485,12 +2485,12 @@
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 261
+      "order": 362
     },
     {
       "date": "2026-10-30",
-      "title": "社区活动",
-      "time": "",
+      "title": "社区活动（截图分享）",
+      "time": "12:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2507,12 +2507,12 @@
       "priority": "B级",
       "docLinks": {},
       "backlinks": {},
-      "order": 217
+      "order": 364
     },
     {
-      "date": "2026-10-30",
-      "title": "噜咪档案 幽冥猎犬·异",
-      "time": "",
+      "date": "2026-10-31",
+      "title": "无头骑士AI PV",
+      "time": "12:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2526,15 +2526,15 @@
       "types": [
         "lumi"
       ],
-      "priority": "A级",
+      "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 262
+      "order": 360
     },
     {
-      "date": "2026-10-30",
-      "title": "噜咪档案 幽浮狗",
-      "time": "",
+      "date": "2026-10-31",
+      "title": "噜咪档案 无头骑士",
+      "time": "17:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2548,10 +2548,10 @@
       "types": [
         "lumi"
       ],
-      "priority": "A级",
+      "priority": "S级",
       "docLinks": {},
       "backlinks": {},
-      "order": 264
+      "order": 361
     }
   ]
 }
