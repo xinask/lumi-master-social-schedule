@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "10/20/2026 14:59:53",
+  "updatedAt": "10/21/2026 16:42:15",
   "posts": [
     {
       "date": "2026-08-01",
@@ -2226,29 +2226,7 @@
     {
       "date": "2026-10-21",
       "title": "噜咪档案 青龙 全景卡",
-      "time": "12:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "lumi"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 1
-    },
-    {
-      "date": "2026-10-22",
-      "title": "噜咪档案 青龙技能展示+建筑",
-      "time": "17:00",
+      "time": "14:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2287,6 +2265,50 @@
       "priority": "S级",
       "docLinks": {},
       "backlinks": {},
+      "order": 1
+    },
+    {
+      "date": "2026-10-23",
+      "title": "创作者激励计划二宣",
+      "time": "11:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 1
+    },
+    {
+      "date": "2026-10-23",
+      "title": "噜咪档案 青龙技能展示+建筑",
+      "time": "15:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "S级",
+      "docLinks": {},
+      "backlinks": {},
       "order": 2
     },
     {
@@ -2309,29 +2331,7 @@
       "priority": "B级",
       "docLinks": {},
       "backlinks": {},
-      "order": 1
-    },
-    {
-      "date": "2026-10-23",
-      "title": "创作者激励计划二宣",
-      "time": "12:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "A级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 367
+      "order": 3
     },
     {
       "date": "2026-10-24",
@@ -2550,7 +2550,30 @@
     },
     {
       "date": "2026-10-30",
-      "title": "社区活动（截图分享）",
+      "title": "捣蛋节小视频物料（繁中需要定制KOL）",
+      "time": "17:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version",
+        "publishing"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 368
+    },
+    {
+      "date": "2026-10-30",
+      "title": "社区活动（无头骑士四选一）",
       "time": "12:00",
       "platforms": [
         "全平台通发"
@@ -2568,7 +2591,7 @@
       "priority": "B级",
       "docLinks": {},
       "backlinks": {},
-      "order": 364
+      "order": 369
     },
     {
       "date": "2026-10-31",
