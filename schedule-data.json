@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "10/21/2026 16:42:15",
+  "updatedAt": "10/23/2026 18:18:39",
   "posts": [
     {
       "date": "2026-08-01",
@@ -2268,6 +2268,46 @@
       "order": 1
     },
     {
+      "date": "2026-10-22",
+      "title": "版本更新",
+      "time": "20:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 370
+    },
+    {
+      "date": "2026-10-23",
+      "title": "社区活动 签到打卡",
+      "time": "10:00",
+      "platforms": [
+        "Naver Lounge"
+      ],
+      "regions": [
+        "韩国"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 370
+    },
+    {
       "date": "2026-10-23",
       "title": "创作者激励计划二宣",
       "time": "11:00",
@@ -2292,7 +2332,7 @@
     {
       "date": "2026-10-23",
       "title": "噜咪档案 青龙技能展示+建筑",
-      "time": "15:00",
+      "time": "17:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2314,7 +2354,7 @@
     {
       "date": "2026-10-23",
       "title": "礼包码",
-      "time": "17:00",
+      "time": "19:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2332,27 +2372,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 3
-    },
-    {
-      "date": "2026-10-24",
-      "title": "玩家访谈",
-      "time": "12:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "community"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 2
     },
     {
       "date": "2026-10-24",
@@ -2377,6 +2396,24 @@
       "order": 1
     },
     {
+      "date": "2026-10-24",
+      "title": "噜咪蛋糕 蜜桃猫主题",
+      "time": "19:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "台港澳"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 2
+    },
+    {
       "date": "2026-10-25",
       "title": "噜咪蛋糕 蜜桃猫主题",
       "time": "17:00",
@@ -2386,7 +2423,6 @@
       "regions": [
         "欧美",
         "日本",
-        "台港澳",
         "韩国",
         "俄罗斯"
       ],
@@ -2400,8 +2436,8 @@
     },
     {
       "date": "2026-10-25",
-      "title": "噜咪档案肌肉金轮",
-      "time": "17:00",
+      "title": "青龙KV",
+      "time": "12:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2418,30 +2454,12 @@
       "priority": "A级",
       "docLinks": {},
       "backlinks": {},
-      "order": 2
-    },
-    {
-      "date": "2026-10-26",
-      "title": "日本LINE小游戏版本上线 社媒宣传BANNER",
-      "time": "",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "日本"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "S级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 4
+      "order": 374
     },
     {
       "date": "2026-10-26",
       "title": "IP漫画 水龙",
-      "time": "",
+      "time": "14:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2461,9 +2479,31 @@
       "order": 354
     },
     {
+      "date": "2026-10-26",
+      "title": "噜咪档案 肌肉金轮",
+      "time": "17:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 372
+    },
+    {
       "date": "2026-10-27",
       "title": "策划面对面+提醒蜜桃猫即将结束+明日公会战+捣蛋节安妮莫预热",
-      "time": "17:00",
+      "time": "12:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2481,6 +2521,28 @@
       "docLinks": {},
       "backlinks": {},
       "order": 356
+    },
+    {
+      "date": "2026-10-27",
+      "title": "策划面对面问题收集",
+      "time": "17:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "A级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 373
     },
     {
       "date": "2026-10-28",
@@ -2503,6 +2565,27 @@
       "docLinks": {},
       "backlinks": {},
       "order": 1
+    },
+    {
+      "date": "2026-10-28",
+      "title": "玩家访谈",
+      "time": "12:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 2
     },
     {
       "date": "2026-10-29",
@@ -2550,6 +2633,28 @@
     },
     {
       "date": "2026-10-30",
+      "title": "社区活动（无头骑士四选一）",
+      "time": "12:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "B级",
+      "docLinks": {},
+      "backlinks": {},
+      "order": 369
+    },
+    {
+      "date": "2026-10-30",
       "title": "捣蛋节小视频物料（繁中需要定制KOL）",
       "time": "17:00",
       "platforms": [
@@ -2570,28 +2675,6 @@
       "docLinks": {},
       "backlinks": {},
       "order": 368
-    },
-    {
-      "date": "2026-10-30",
-      "title": "社区活动（无头骑士四选一）",
-      "time": "12:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "community"
-      ],
-      "priority": "B级",
-      "docLinks": {},
-      "backlinks": {},
-      "order": 369
     },
     {
       "date": "2026-10-31",
