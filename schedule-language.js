@@ -30,6 +30,9 @@
   uiMap['周日—周六']='일요일~토요일';
   uiMap['折叠本月']='이번 달 접기';
   uiMap['展开本月']='이번 달 펼치기';
+  uiMap['触达标记']='도달 표시';
+  uiMap['大R推送']='VIP 유저 푸시';
+  uiMap['端内引流']='게임 내 유입';
   const regionMap={'欧美':'서구권','日本':'일본','台港澳':'대만·홍콩·마카오','韩国':'한국','俄罗斯':'러시아','全球':'글로벌'};
   const platformMap={'全平台通发':'전체 채널','全平台':'전체 채널'};
   const typeMap={'version':'버전/이벤트','lumi':'루미/캐릭터','community':'커뮤니티/UGC','publishing':'출시/전환'};
@@ -48,7 +51,7 @@
     try{
       document.documentElement.lang=lang==='ko'?'ko':'zh-CN';
       const button=document.querySelector('.language-toggle');if(button)setText(button,lang==='ko'?'中文':'한국어');
-      document.querySelectorAll('.top .nav button:not(.language-toggle),.top .nav a,.right,.intro h1,.intro p,.intro-note-label,.metric span,.metric small,.panelhead h2,.panelhead span,.filters label,.filters button,.views button,.legend span,.legend b,.side h3,.dist span,.dist b,.region-hubs-head h2,.region-hubs-head span,.region-hub h3,.post-tools button,.post-form label,.post-form h3,.post-form button,.link-section h4,.no-links,.post-link,.today-execution-date,.today-execution-weekday,.today-execution-count,.today-execution-empty strong,.today-execution-empty,.timeline-date strong,.timeline-date span,.timeline-time,.timeline-link,.calendar-fold-row span,.calendar-fold-row button,.calendar-week-row button,.calendar-week-row .week-cycle,.month-toggle').forEach(el=>{const cn=remember(el);setText(el,lang==='ko'?tr(cn):cn)});
+      document.querySelectorAll('.top .nav button:not(.language-toggle),.top .nav a,.right,.intro h1,.intro p,.intro-note-label,.metric span,.metric small,.panelhead h2,.panelhead span,.filters label,.filters button,.views button,.legend span,.legend b,.side h3,.dist span,.dist b,.region-hubs-head h2,.region-hubs-head span,.region-hub h3,.post-tools button,.post-form label:not(.delivery-check),.delivery-options>span,.delivery-check>span,.post-form h3,.post-form button,.link-section h4,.no-links,.post-link,.today-execution-date,.today-execution-weekday,.today-execution-count,.today-execution-empty strong,.today-execution-empty,.timeline-date strong,.timeline-date span,.timeline-time,.timeline-link,.calendar-fold-row span,.calendar-fold-row button,.calendar-week-row button,.calendar-week-row .week-cycle,.month-toggle').forEach(el=>{const cn=remember(el);setText(el,lang==='ko'?tr(cn):cn)});
       document.querySelectorAll('.day header span:first-child,.month-label,.weekday').forEach(el=>{const target=el.classList.contains('month-label')?(el.querySelector('.month-title')||el):el;const cn=remember(target),m=cn.match(/^(\\d{4})年(\\d+)月$/);setText(target,lang==='ko'?(m?`${m[1]}년 ${m[2]}월`:tr(cn)):cn)});
       document.querySelectorAll('.card b,.timeline-title,.today-execution-title,#formTitle,#dialogTitle').forEach(el=>{const cn=remember(el);setText(el,lang==='ko'?tr(cn):cn);if(el.dataset.cnTitle!==cn)el.dataset.cnTitle=cn});
       document.querySelectorAll('.card small,.timeline-meta,.today-execution-meta').forEach(el=>{const cn=remember(el);setText(el,lang==='ko'?cn.split(' · ').map(x=>tr(x)).join(' · '):cn)});
