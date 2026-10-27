@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "10/26/2026 16:41:37",
+  "updatedAt": "10/27/2026 19:52:47",
   "posts": [
     {
       "date": "2026-08-01",
@@ -2770,8 +2770,8 @@
     },
     {
       "date": "2026-10-27",
-      "title": "策划面对面+提醒蜜桃猫即将结束+明日公会战+捣蛋节安妮莫预热",
-      "time": "12:00",
+      "title": "策划面对面",
+      "time": "",
       "platforms": [
         "全平台通发"
       ],
@@ -2790,55 +2790,7 @@
       "inAppTraffic": false,
       "docLinks": {},
       "backlinks": {},
-      "order": 356
-    },
-    {
-      "date": "2026-10-27",
-      "title": "策划面对面问题收集",
-      "time": "17:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "publishing"
-      ],
-      "priority": "A级",
-      "bigRPush": false,
-      "inAppTraffic": false,
-      "docLinks": {},
-      "backlinks": {},
-      "order": 373
-    },
-    {
-      "date": "2026-10-28",
-      "title": "捣蛋节KV+版本活动介绍",
-      "time": "12:00",
-      "platforms": [
-        "全平台通发"
-      ],
-      "regions": [
-        "欧美",
-        "日本",
-        "台港澳",
-        "韩国",
-        "俄罗斯"
-      ],
-      "types": [
-        "version"
-      ],
-      "priority": "S级",
-      "bigRPush": false,
-      "inAppTraffic": false,
-      "docLinks": {},
-      "backlinks": {},
-      "order": 1
+      "order": 378
     },
     {
       "date": "2026-10-28",
@@ -2849,7 +2801,6 @@
       ],
       "regions": [
         "欧美",
-        "日本",
         "韩国",
         "俄罗斯"
       ],
@@ -2861,7 +2812,7 @@
       "inAppTraffic": false,
       "docLinks": {},
       "backlinks": {},
-      "order": 2
+      "order": 1
     },
     {
       "date": "2026-10-29",
@@ -2885,7 +2836,7 @@
       "inAppTraffic": false,
       "docLinks": {},
       "backlinks": {},
-      "order": 363
+      "order": 1
     },
     {
       "date": "2026-10-29",
@@ -2909,7 +2860,7 @@
       "inAppTraffic": false,
       "docLinks": {},
       "backlinks": {},
-      "order": 362
+      "order": 2
     },
     {
       "date": "2026-10-30",
