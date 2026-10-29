@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "10/27/2026 19:52:47",
+  "updatedAt": "10/28/2026 20:20:23",
   "posts": [
     {
       "date": "2026-08-01",
@@ -2840,8 +2840,8 @@
     },
     {
       "date": "2026-10-29",
-      "title": "活动日历+捣蛋节预热",
-      "time": "17:00",
+      "title": "捣蛋节长图",
+      "time": "14:00",
       "platforms": [
         "全平台通发"
       ],
@@ -2861,6 +2861,30 @@
       "docLinks": {},
       "backlinks": {},
       "order": 2
+    },
+    {
+      "date": "2026-10-29",
+      "title": "活动日历+蜜桃猫结束提醒",
+      "time": "17:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "S级",
+      "bigRPush": false,
+      "inAppTraffic": true,
+      "docLinks": {},
+      "backlinks": {},
+      "order": 379
     },
     {
       "date": "2026-10-30",
@@ -2925,7 +2949,7 @@
       ],
       "priority": "B级",
       "bigRPush": false,
-      "inAppTraffic": false,
+      "inAppTraffic": true,
       "docLinks": {},
       "backlinks": {},
       "order": 369
@@ -2957,6 +2981,30 @@
     },
     {
       "date": "2026-10-31",
+      "title": "捣蛋节兑换码",
+      "time": "10:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "B级",
+      "bigRPush": true,
+      "inAppTraffic": true,
+      "docLinks": {},
+      "backlinks": {},
+      "order": 374
+    },
+    {
+      "date": "2026-10-31",
       "title": "无头骑士AI PV",
       "time": "12:00",
       "platforms": [
@@ -2974,7 +3022,7 @@
       ],
       "priority": "S级",
       "bigRPush": false,
-      "inAppTraffic": false,
+      "inAppTraffic": true,
       "docLinks": {},
       "backlinks": {},
       "order": 360
@@ -3002,6 +3050,150 @@
       "docLinks": {},
       "backlinks": {},
       "order": 361
+    },
+    {
+      "date": "2026-11-01",
+      "title": "开饭啦！噜咪",
+      "time": "12:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "B级",
+      "bigRPush": true,
+      "inAppTraffic": true,
+      "docLinks": {},
+      "backlinks": {},
+      "order": 379
+    },
+    {
+      "date": "2026-11-03",
+      "title": "噜咪档案 幽冥猎犬",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "lumi"
+      ],
+      "priority": "A级",
+      "bigRPush": false,
+      "inAppTraffic": false,
+      "docLinks": {},
+      "backlinks": {},
+      "order": 380
+    },
+    {
+      "date": "2026-11-04",
+      "title": "捣蛋节家园主题介绍",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "S级",
+      "bigRPush": false,
+      "inAppTraffic": false,
+      "docLinks": {},
+      "backlinks": {},
+      "order": 381
+    },
+    {
+      "date": "2026-11-05",
+      "title": "活动日历",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "version"
+      ],
+      "priority": "A级",
+      "bigRPush": true,
+      "inAppTraffic": false,
+      "docLinks": {},
+      "backlinks": {},
+      "order": 382
+    },
+    {
+      "date": "2026-11-06",
+      "title": "周常规礼包码",
+      "time": "",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "community"
+      ],
+      "priority": "B级",
+      "bigRPush": false,
+      "inAppTraffic": false,
+      "docLinks": {},
+      "backlinks": {},
+      "order": 383
+    },
+    {
+      "date": "2026-11-07",
+      "title": "青龙AI PV",
+      "time": "12:00",
+      "platforms": [
+        "全平台通发"
+      ],
+      "regions": [
+        "欧美",
+        "日本",
+        "台港澳",
+        "韩国",
+        "俄罗斯"
+      ],
+      "types": [
+        "publishing"
+      ],
+      "priority": "S级",
+      "bigRPush": true,
+      "inAppTraffic": true,
+      "docLinks": {},
+      "backlinks": {},
+      "order": 384
     }
   ]
 }
